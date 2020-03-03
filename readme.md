@@ -12,12 +12,19 @@
 ## 项目构建
 
 项目api版本，尽量修改版本，jdk等所需包请根据版本下载
+
 ![Alt](img/start_proj1.png)
+
 项目文件结构，这里需要注意图片中显示的文件树是常见文件风格的，Android studio默认风格是Android的风格
+
 ![Alt](img/start_proj2.png)
+
 doc文档即其他附件上传目录
+
 ![Alt](img/start_proj3.png)
+
 readme.md相关说明
+
 ![Alt](img/start_proj4.png)
 
 ## 开发
