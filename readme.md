@@ -7,11 +7,12 @@
 ## git仓库使用
 
 [git相关操作](https://song-10.github.io/other/Git%E7%9A%84%E4%BD%BF%E7%94%A8/)
+
 [Android studio 协同开发](https://blog.csdn.net/shurongro/article/details/77387573)
 
 ## 项目构建
 
-项目api版本，尽量修改版本，jdk等所需包请根据版本下载
+项目api版本，尽量不要修改版本，jdk等所需包请根据版本下载
 
 ![Alt](img/start_proj1.png)
 
