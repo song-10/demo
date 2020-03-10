@@ -1,0 +1,321 @@
+-- Merging decision tree log ---
+provider#android.support.v4.content.FileProvider
+INJECTED from D:\MyProject\SM4forAndroid\app\src\main\AndroidManifest.xml:46:9-54:20
+	android:grantUriPermissions
+		ADDED from D:\MyProject\SM4forAndroid\app\src\main\AndroidManifest.xml:50:13-47
+	android:authorities
+		INJECTED from D:\MyProject\SM4forAndroid\app\src\main\AndroidManifest.xml
+		ADDED from D:\MyProject\SM4forAndroid\app\src\main\AndroidManifest.xml:48:13-60
+	android:exported
+		ADDED from D:\MyProject\SM4forAndroid\app\src\main\AndroidManifest.xml:49:13-37
+	android:name
+		ADDED from D:\MyProject\SM4forAndroid\app\src\main\AndroidManifest.xml:47:13-67
+manifest
+ADDED from D:\MyProject\SM4forAndroid\app\src\main\AndroidManifest.xml:2:1-78:12
+INJECTED from D:\MyProject\SM4forAndroid\app\src\main\AndroidManifest.xml:2:1-78:12
+INJECTED from D:\MyProject\SM4forAndroid\app\src\main\AndroidManifest.xml:2:1-78:12
+INJECTED from D:\MyProject\SM4forAndroid\app\src\main\AndroidManifest.xml:2:1-78:12
+MERGED from [com.yanzhenjie:permission:1.0.1] C:\Users\Nop\.gradle\caches\transforms-1\files-1.1\permission-1.0.1.aar\04102e769c67d32bcacd4bb7f4d8e270\AndroidManifest.xml:2:1-15:12
+MERGED from [com.youth.xframe:xframe:1.1.2] C:\Users\Nop\.gradle\caches\transforms-1\files-1.1\xframe-1.1.2.aar\7f49a35f41f91aa0182844e7f332542b\AndroidManifest.xml:2:1-26:12
+MERGED from [com.android.support:design:27.0.1] C:\Users\Nop\.gradle\caches\transforms-1\files-1.1\design-27.0.1.aar\90570f8aec0b5c482b1db8ed1acbc87c\AndroidManifest.xml:17:1-22:12
+MERGED from [com.andrognito.patternlockview:patternlockview:1.0.0] C:\Users\Nop\.gradle\caches\transforms-1\files-1.1\patternlockview-1.0.0.aar\77b4fbe0f341f46a8a37d7a2618fee24\AndroidManifest.xml:2:1-12:12
+MERGED from [com.android.support:appcompat-v7:27.0.1] C:\Users\Nop\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.0.1.aar\6cdb7da7aef8cdd6323fc357750dc027\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Nop\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\3d6b7fb1a01a217eb9f73fd840274c20\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:cardview-v7:27.0.1] C:\Users\Nop\.gradle\caches\transforms-1\files-1.1\cardview-v7-27.0.1.aar\788f9a8f1edc0025ba9ff14a44aa17ee\AndroidManifest.xml:17:1-22:12
+MERGED from [org.litepal.android:core:1.6.1] C:\Users\Nop\.gradle\caches\transforms-1\files-1.1\core-1.6.1.aar\b2ab54437ad663d484325c83f0e7bf2c\AndroidManifest.xml:2:1-16:12
+MERGED from [com.classic.adapter:commonadapter:1.8.1] C:\Users\Nop\.gradle\caches\transforms-1\files-1.1\commonadapter-1.8.1.aar\79745806b4a0784013cf39f3f354a21c\AndroidManifest.xml:2:1-17:12
+MERGED from [com.contrarywind:Android-PickerView:3.2.7] C:\Users\Nop\.gradle\caches\transforms-1\files-1.1\Android-PickerView-3.2.7.aar\e800caef8ba83239b5b201637fa36a4e\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:recyclerview-v7:27.0.1] C:\Users\Nop\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.0.1.aar\16077d95ec23b3b18c57177c0614184b\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:27.0.1] C:\Users\Nop\.gradle\caches\transforms-1\files-1.1\transition-27.0.1.aar\cee280ff78bd644011594e8a3d2961d0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-v4:27.0.1] C:\Users\Nop\.gradle\caches\transforms-1\files-1.1\support-v4-27.0.1.aar\ac0090ca52414a3dc7e1dfbbf90cc4fe\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:27.0.1] C:\Users\Nop\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.0.1.aar\59d36c28850b9fe10051e406f52076a3\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.0.1] C:\Users\Nop\.gradle\caches\transforms-1\files-1.1\support-fragment-27.0.1.aar\77ca5e394c67444e784598d095b74477\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.0.1] C:\Users\Nop\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.0.1.aar\f57e92678dfd273bc4fa4a97ccbc30ef\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.0.1] C:\Users\Nop\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.0.1.aar\9b072152cb9534f9b3a4f691ea5474b0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.0.1] C:\Users\Nop\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.0.1.aar\e83409a01ec2b623b84a12faa5523adc\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.0.1] C:\Users\Nop\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.0.1.aar\0a3ccc2620b8588e3e34e9ee27b559f7\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.0.1] C:\Users\Nop\.gradle\caches\transforms-1\files-1.1\support-compat-27.0.1.aar\2b9a0451e8bd199a77e367f03cd824e9\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Nop\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\3a18e2ad1359cbf211efbdb721cdbd95\AndroidManifest.xml:17:1-30:12
+INJECTED from D:\MyProject\SM4forAndroid\app\src\main\AndroidManifest.xml:2:1-78:12
+INJECTED from D:\MyProject\SM4forAndroid\app\src\main\AndroidManifest.xml:2:1-78:12
+INJECTED from D:\MyProject\SM4forAndroid\app\src\main\AndroidManifest.xml:2:1-78:12
+	package
+		ADDED from D:\MyProject\SM4forAndroid\app\src\main\AndroidManifest.xml:4:5-22
+		INJECTED from D:\MyProject\SM4forAndroid\app\src\main\AndroidManifest.xml
+		INJECTED from D:\MyProject\SM4forAndroid\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from D:\MyProject\SM4forAndroid\app\src\main\AndroidManifest.xml
+		ADDED from D:\MyProject\SM4forAndroid\app\src\main\AndroidManifest.xml:2:1-78:12
+		INJECTED from D:\MyProject\SM4forAndroid\app\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from D:\MyProject\SM4forAndroid\app\src\main\AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from D:\MyProject\SM4forAndroid\app\src\main\AndroidManifest.xml
+		ADDED from D:\MyProject\SM4forAndroid\app\src\main\AndroidManifest.xml:2:1-78:12
+		INJECTED from D:\MyProject\SM4forAndroid\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\MyProject\SM4forAndroid\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.CAMERA
+ADDED from D:\MyProject\SM4forAndroid\app\src\main\AndroidManifest.xml:6:5-65
+	android:name
+		ADDED from D:\MyProject\SM4forAndroid\app\src\main\AndroidManifest.xml:6:22-62
+uses-permission#android.permission.CALL_PHONE
+ADDED from D:\MyProject\SM4forAndroid\app\src\main\AndroidManifest.xml:7:5-69
+	android:name
+		ADDED from D:\MyProject\SM4forAndroid\app\src\main\AndroidManifest.xml:7:22-66
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from D:\MyProject\SM4forAndroid\app\src\main\AndroidManifest.xml:8:5-81
+	android:name
+		ADDED from D:\MyProject\SM4forAndroid\app\src\main\AndroidManifest.xml:8:22-78
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from D:\MyProject\SM4forAndroid\app\src\main\AndroidManifest.xml:9:5-80
+	android:name
+		ADDED from D:\MyProject\SM4forAndroid\app\src\main\AndroidManifest.xml:9:22-77
+uses-permission#android.permission.INTERNET
+ADDED from D:\MyProject\SM4forAndroid\app\src\main\AndroidManifest.xml:10:5-67
+MERGED from [com.youth.xframe:xframe:1.1.2] C:\Users\Nop\.gradle\caches\transforms-1\files-1.1\xframe-1.1.2.aar\7f49a35f41f91aa0182844e7f332542b\AndroidManifest.xml:11:5-67
+MERGED from [com.youth.xframe:xframe:1.1.2] C:\Users\Nop\.gradle\caches\transforms-1\files-1.1\xframe-1.1.2.aar\7f49a35f41f91aa0182844e7f332542b\AndroidManifest.xml:11:5-67
+	android:name
+		ADDED from D:\MyProject\SM4forAndroid\app\src\main\AndroidManifest.xml:10:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from D:\MyProject\SM4forAndroid\app\src\main\AndroidManifest.xml:11:5-79
+MERGED from [com.youth.xframe:xframe:1.1.2] C:\Users\Nop\.gradle\caches\transforms-1\files-1.1\xframe-1.1.2.aar\7f49a35f41f91aa0182844e7f332542b\AndroidManifest.xml:17:5-79
+MERGED from [com.youth.xframe:xframe:1.1.2] C:\Users\Nop\.gradle\caches\transforms-1\files-1.1\xframe-1.1.2.aar\7f49a35f41f91aa0182844e7f332542b\AndroidManifest.xml:17:5-79
+	android:name
+		ADDED from D:\MyProject\SM4forAndroid\app\src\main\AndroidManifest.xml:11:22-76
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from D:\MyProject\SM4forAndroid\app\src\main\AndroidManifest.xml:12:5-76
+MERGED from [com.youth.xframe:xframe:1.1.2] C:\Users\Nop\.gradle\caches\transforms-1\files-1.1\xframe-1.1.2.aar\7f49a35f41f91aa0182844e7f332542b\AndroidManifest.xml:18:5-76
+MERGED from [com.youth.xframe:xframe:1.1.2] C:\Users\Nop\.gradle\caches\transforms-1\files-1.1\xframe-1.1.2.aar\7f49a35f41f91aa0182844e7f332542b\AndroidManifest.xml:18:5-76
+	android:name
+		ADDED from D:\MyProject\SM4forAndroid\app\src\main\AndroidManifest.xml:12:22-73
+uses-permission#android.permission.GET_ACCOUNTS
+ADDED from D:\MyProject\SM4forAndroid\app\src\main\AndroidManifest.xml:13:5-71
+	android:name
+		ADDED from D:\MyProject\SM4forAndroid\app\src\main\AndroidManifest.xml:13:22-68
+uses-permission#android.permission.USE_CREDENTIALS
+ADDED from D:\MyProject\SM4forAndroid\app\src\main\AndroidManifest.xml:14:5-74
+	android:name
+		ADDED from D:\MyProject\SM4forAndroid\app\src\main\AndroidManifest.xml:14:22-71
+uses-permission#android.permission.MANAGE_ACCOUNTS
+ADDED from D:\MyProject\SM4forAndroid\app\src\main\AndroidManifest.xml:15:5-74
+	android:name
+		ADDED from D:\MyProject\SM4forAndroid\app\src\main\AndroidManifest.xml:15:22-71
+uses-permission#android.permission.AUTHENTICATE_ACCOUNTS
+ADDED from D:\MyProject\SM4forAndroid\app\src\main\AndroidManifest.xml:16:5-80
+	android:name
+		ADDED from D:\MyProject\SM4forAndroid\app\src\main\AndroidManifest.xml:16:22-77
+uses-permission#com.android.launcher.permission.READ_SETTINGS
+ADDED from D:\MyProject\SM4forAndroid\app\src\main\AndroidManifest.xml:17:5-85
+	android:name
+		ADDED from D:\MyProject\SM4forAndroid\app\src\main\AndroidManifest.xml:17:22-82
+uses-permission#android.permission.CHANGE_WIFI_STATE
+ADDED from D:\MyProject\SM4forAndroid\app\src\main\AndroidManifest.xml:18:5-76
+MERGED from [com.youth.xframe:xframe:1.1.2] C:\Users\Nop\.gradle\caches\transforms-1\files-1.1\xframe-1.1.2.aar\7f49a35f41f91aa0182844e7f332542b\AndroidManifest.xml:19:5-76
+MERGED from [com.youth.xframe:xframe:1.1.2] C:\Users\Nop\.gradle\caches\transforms-1\files-1.1\xframe-1.1.2.aar\7f49a35f41f91aa0182844e7f332542b\AndroidManifest.xml:19:5-76
+	android:name
+		ADDED from D:\MyProject\SM4forAndroid\app\src\main\AndroidManifest.xml:18:22-73
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from D:\MyProject\SM4forAndroid\app\src\main\AndroidManifest.xml:19:5-75
+	android:name
+		ADDED from D:\MyProject\SM4forAndroid\app\src\main\AndroidManifest.xml:19:22-72
+uses-permission#android.permission.BROADCAST_STICKY
+ADDED from D:\MyProject\SM4forAndroid\app\src\main\AndroidManifest.xml:20:5-75
+	android:name
+		ADDED from D:\MyProject\SM4forAndroid\app\src\main\AndroidManifest.xml:20:22-72
+uses-permission#android.permission.WRITE_SETTINGS
+ADDED from D:\MyProject\SM4forAndroid\app\src\main\AndroidManifest.xml:21:5-23:47
+	tools:ignore
+		ADDED from D:\MyProject\SM4forAndroid\app\src\main\AndroidManifest.xml:23:9-44
+	android:name
+		ADDED from D:\MyProject\SM4forAndroid\app\src\main\AndroidManifest.xml:22:9-57
+uses-permission#android.permission.CHANGE_NETWORK_STATE
+ADDED from D:\MyProject\SM4forAndroid\app\src\main\AndroidManifest.xml:24:5-79
+	android:name
+		ADDED from D:\MyProject\SM4forAndroid\app\src\main\AndroidManifest.xml:24:22-76
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from D:\MyProject\SM4forAndroid\app\src\main\AndroidManifest.xml:26:5-71
+	android:name
+		ADDED from D:\MyProject\SM4forAndroid\app\src\main\AndroidManifest.xml:26:22-68
+uses-permission#android.permission.MODIFY_AUDIO_SETTINGS
+ADDED from D:\MyProject\SM4forAndroid\app\src\main\AndroidManifest.xml:27:5-80
+	android:name
+		ADDED from D:\MyProject\SM4forAndroid\app\src\main\AndroidManifest.xml:27:22-77
+uses-permission#android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+ADDED from D:\MyProject\SM4forAndroid\app\src\main\AndroidManifest.xml:29:5-31:47
+	tools:ignore
+		ADDED from D:\MyProject\SM4forAndroid\app\src\main\AndroidManifest.xml:31:9-44
+	android:name
+		ADDED from D:\MyProject\SM4forAndroid\app\src\main\AndroidManifest.xml:30:9-68
+uses-permission#android.permission.SEND_SMS
+ADDED from D:\MyProject\SM4forAndroid\app\src\main\AndroidManifest.xml:32:5-67
+	android:name
+		ADDED from D:\MyProject\SM4forAndroid\app\src\main\AndroidManifest.xml:32:22-64
+uses-permission#android.permission.READ_SMS
+ADDED from D:\MyProject\SM4forAndroid\app\src\main\AndroidManifest.xml:33:5-67
+MERGED from [com.youth.xframe:xframe:1.1.2] C:\Users\Nop\.gradle\caches\transforms-1\files-1.1\xframe-1.1.2.aar\7f49a35f41f91aa0182844e7f332542b\AndroidManifest.xml:15:5-67
+MERGED from [com.youth.xframe:xframe:1.1.2] C:\Users\Nop\.gradle\caches\transforms-1\files-1.1\xframe-1.1.2.aar\7f49a35f41f91aa0182844e7f332542b\AndroidManifest.xml:15:5-67
+	android:name
+		ADDED from D:\MyProject\SM4forAndroid\app\src\main\AndroidManifest.xml:33:22-64
+application
+ADDED from D:\MyProject\SM4forAndroid\app\src\main\AndroidManifest.xml:35:5-76:19
+MERGED from [com.yanzhenjie:permission:1.0.1] C:\Users\Nop\.gradle\caches\transforms-1\files-1.1\permission-1.0.1.aar\04102e769c67d32bcacd4bb7f4d8e270\AndroidManifest.xml:9:5-13:19
+MERGED from [com.yanzhenjie:permission:1.0.1] C:\Users\Nop\.gradle\caches\transforms-1\files-1.1\permission-1.0.1.aar\04102e769c67d32bcacd4bb7f4d8e270\AndroidManifest.xml:9:5-13:19
+MERGED from [com.youth.xframe:xframe:1.1.2] C:\Users\Nop\.gradle\caches\transforms-1\files-1.1\xframe-1.1.2.aar\7f49a35f41f91aa0182844e7f332542b\AndroidManifest.xml:21:5-24:19
+MERGED from [com.youth.xframe:xframe:1.1.2] C:\Users\Nop\.gradle\caches\transforms-1\files-1.1\xframe-1.1.2.aar\7f49a35f41f91aa0182844e7f332542b\AndroidManifest.xml:21:5-24:19
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Nop\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\3d6b7fb1a01a217eb9f73fd840274c20\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Nop\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\3d6b7fb1a01a217eb9f73fd840274c20\AndroidManifest.xml:9:5-20
+MERGED from [org.litepal.android:core:1.6.1] C:\Users\Nop\.gradle\caches\transforms-1\files-1.1\core-1.6.1.aar\b2ab54437ad663d484325c83f0e7bf2c\AndroidManifest.xml:11:5-14:19
+MERGED from [org.litepal.android:core:1.6.1] C:\Users\Nop\.gradle\caches\transforms-1\files-1.1\core-1.6.1.aar\b2ab54437ad663d484325c83f0e7bf2c\AndroidManifest.xml:11:5-14:19
+MERGED from [com.classic.adapter:commonadapter:1.8.1] C:\Users\Nop\.gradle\caches\transforms-1\files-1.1\commonadapter-1.8.1.aar\79745806b4a0784013cf39f3f354a21c\AndroidManifest.xml:11:5-15:19
+MERGED from [com.classic.adapter:commonadapter:1.8.1] C:\Users\Nop\.gradle\caches\transforms-1\files-1.1\commonadapter-1.8.1.aar\79745806b4a0784013cf39f3f354a21c\AndroidManifest.xml:11:5-15:19
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Nop\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\3a18e2ad1359cbf211efbdb721cdbd95\AndroidManifest.xml:24:5-28:19
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Nop\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\3a18e2ad1359cbf211efbdb721cdbd95\AndroidManifest.xml:24:5-28:19
+	android:supportsRtl
+		ADDED from D:\MyProject\SM4forAndroid\app\src\main\AndroidManifest.xml:39:9-35
+	android:label
+		ADDED from D:\MyProject\SM4forAndroid\app\src\main\AndroidManifest.xml:38:9-41
+	tools:ignore
+		ADDED from D:\MyProject\SM4forAndroid\app\src\main\AndroidManifest.xml:41:9-60
+	android:allowBackup
+		ADDED from [com.yanzhenjie:permission:1.0.1] C:\Users\Nop\.gradle\caches\transforms-1\files-1.1\permission-1.0.1.aar\04102e769c67d32bcacd4bb7f4d8e270\AndroidManifest.xml:10:9-35
+	android:icon
+		ADDED from D:\MyProject\SM4forAndroid\app\src\main\AndroidManifest.xml:37:9-38
+	android:theme
+		ADDED from D:\MyProject\SM4forAndroid\app\src\main\AndroidManifest.xml:40:9-40
+	android:name
+		ADDED from D:\MyProject\SM4forAndroid\app\src\main\AndroidManifest.xml:36:9-63
+meta-data#com.google.android.actions
+ADDED from D:\MyProject\SM4forAndroid\app\src\main\AndroidManifest.xml:42:9-44:47
+	android:resource
+		ADDED from D:\MyProject\SM4forAndroid\app\src\main\AndroidManifest.xml:44:13-44
+	android:name
+		ADDED from D:\MyProject\SM4forAndroid\app\src\main\AndroidManifest.xml:43:13-54
+activity#com.example.sm4forandroid.user.WelcomeActivity
+ADDED from D:\MyProject\SM4forAndroid\app\src\main\AndroidManifest.xml:56:9-62:20
+	android:name
+		ADDED from D:\MyProject\SM4forAndroid\app\src\main\AndroidManifest.xml:56:19-80
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from D:\MyProject\SM4forAndroid\app\src\main\AndroidManifest.xml:57:13-61:29
+action#android.intent.action.MAIN
+ADDED from D:\MyProject\SM4forAndroid\app\src\main\AndroidManifest.xml:58:17-69
+	android:name
+		ADDED from D:\MyProject\SM4forAndroid\app\src\main\AndroidManifest.xml:58:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\MyProject\SM4forAndroid\app\src\main\AndroidManifest.xml:60:17-77
+	android:name
+		ADDED from D:\MyProject\SM4forAndroid\app\src\main\AndroidManifest.xml:60:27-74
+activity#com.example.sm4forandroid.MEActivity
+ADDED from D:\MyProject\SM4forAndroid\app\src\main\AndroidManifest.xml:66:9-73
+	android:name
+		ADDED from D:\MyProject\SM4forAndroid\app\src\main\AndroidManifest.xml:66:19-70
+activity#com.example.sm4forandroid.activity.SavePwdActivity
+ADDED from D:\MyProject\SM4forAndroid\app\src\main\AndroidManifest.xml:67:9-87
+	android:name
+		ADDED from D:\MyProject\SM4forAndroid\app\src\main\AndroidManifest.xml:67:19-84
+activity#com.example.sm4forandroid.Main2Activity
+ADDED from D:\MyProject\SM4forAndroid\app\src\main\AndroidManifest.xml:68:9-70:48
+	android:label
+		ADDED from D:\MyProject\SM4forAndroid\app\src\main\AndroidManifest.xml:70:13-45
+	android:name
+		ADDED from D:\MyProject\SM4forAndroid\app\src\main\AndroidManifest.xml:69:13-67
+activity#com.example.sm4forandroid.deal_ms.Message_main_activity
+ADDED from D:\MyProject\SM4forAndroid\app\src\main\AndroidManifest.xml:71:9-72:20
+	android:name
+		ADDED from D:\MyProject\SM4forAndroid\app\src\main\AndroidManifest.xml:71:19-89
+activity#com.example.sm4forandroid.deal_ms.ReceiveActivity
+ADDED from D:\MyProject\SM4forAndroid\app\src\main\AndroidManifest.xml:73:9-85
+	android:name
+		ADDED from D:\MyProject\SM4forAndroid\app\src\main\AndroidManifest.xml:73:19-83
+activity#com.example.sm4forandroid.deal_ms.SendActivity
+ADDED from D:\MyProject\SM4forAndroid\app\src\main\AndroidManifest.xml:74:9-82
+	android:name
+		ADDED from D:\MyProject\SM4forAndroid\app\src\main\AndroidManifest.xml:74:19-80
+activity#com.example.sm4forandroid.deal_ms.ReceiveActivity_show
+ADDED from D:\MyProject\SM4forAndroid\app\src\main\AndroidManifest.xml:75:9-90
+	android:name
+		ADDED from D:\MyProject\SM4forAndroid\app\src\main\AndroidManifest.xml:75:19-88
+uses-sdk
+INJECTED from D:\MyProject\SM4forAndroid\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\MyProject\SM4forAndroid\app\src\main\AndroidManifest.xml
+INJECTED from D:\MyProject\SM4forAndroid\app\src\main\AndroidManifest.xml
+MERGED from [com.yanzhenjie:permission:1.0.1] C:\Users\Nop\.gradle\caches\transforms-1\files-1.1\permission-1.0.1.aar\04102e769c67d32bcacd4bb7f4d8e270\AndroidManifest.xml:5:5-7:41
+MERGED from [com.yanzhenjie:permission:1.0.1] C:\Users\Nop\.gradle\caches\transforms-1\files-1.1\permission-1.0.1.aar\04102e769c67d32bcacd4bb7f4d8e270\AndroidManifest.xml:5:5-7:41
+MERGED from [com.youth.xframe:xframe:1.1.2] C:\Users\Nop\.gradle\caches\transforms-1\files-1.1\xframe-1.1.2.aar\7f49a35f41f91aa0182844e7f332542b\AndroidManifest.xml:7:5-9:41
+MERGED from [com.youth.xframe:xframe:1.1.2] C:\Users\Nop\.gradle\caches\transforms-1\files-1.1\xframe-1.1.2.aar\7f49a35f41f91aa0182844e7f332542b\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:design:27.0.1] C:\Users\Nop\.gradle\caches\transforms-1\files-1.1\design-27.0.1.aar\90570f8aec0b5c482b1db8ed1acbc87c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:27.0.1] C:\Users\Nop\.gradle\caches\transforms-1\files-1.1\design-27.0.1.aar\90570f8aec0b5c482b1db8ed1acbc87c\AndroidManifest.xml:20:5-44
+MERGED from [com.andrognito.patternlockview:patternlockview:1.0.0] C:\Users\Nop\.gradle\caches\transforms-1\files-1.1\patternlockview-1.0.0.aar\77b4fbe0f341f46a8a37d7a2618fee24\AndroidManifest.xml:8:5-10:41
+MERGED from [com.andrognito.patternlockview:patternlockview:1.0.0] C:\Users\Nop\.gradle\caches\transforms-1\files-1.1\patternlockview-1.0.0.aar\77b4fbe0f341f46a8a37d7a2618fee24\AndroidManifest.xml:8:5-10:41
+MERGED from [com.android.support:appcompat-v7:27.0.1] C:\Users\Nop\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.0.1.aar\6cdb7da7aef8cdd6323fc357750dc027\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.0.1] C:\Users\Nop\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.0.1.aar\6cdb7da7aef8cdd6323fc357750dc027\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Nop\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\3d6b7fb1a01a217eb9f73fd840274c20\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Nop\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\3d6b7fb1a01a217eb9f73fd840274c20\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:cardview-v7:27.0.1] C:\Users\Nop\.gradle\caches\transforms-1\files-1.1\cardview-v7-27.0.1.aar\788f9a8f1edc0025ba9ff14a44aa17ee\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:27.0.1] C:\Users\Nop\.gradle\caches\transforms-1\files-1.1\cardview-v7-27.0.1.aar\788f9a8f1edc0025ba9ff14a44aa17ee\AndroidManifest.xml:20:5-44
+MERGED from [org.litepal.android:core:1.6.1] C:\Users\Nop\.gradle\caches\transforms-1\files-1.1\core-1.6.1.aar\b2ab54437ad663d484325c83f0e7bf2c\AndroidManifest.xml:7:5-9:41
+MERGED from [org.litepal.android:core:1.6.1] C:\Users\Nop\.gradle\caches\transforms-1\files-1.1\core-1.6.1.aar\b2ab54437ad663d484325c83f0e7bf2c\AndroidManifest.xml:7:5-9:41
+MERGED from [com.classic.adapter:commonadapter:1.8.1] C:\Users\Nop\.gradle\caches\transforms-1\files-1.1\commonadapter-1.8.1.aar\79745806b4a0784013cf39f3f354a21c\AndroidManifest.xml:7:5-9:41
+MERGED from [com.classic.adapter:commonadapter:1.8.1] C:\Users\Nop\.gradle\caches\transforms-1\files-1.1\commonadapter-1.8.1.aar\79745806b4a0784013cf39f3f354a21c\AndroidManifest.xml:7:5-9:41
+MERGED from [com.contrarywind:Android-PickerView:3.2.7] C:\Users\Nop\.gradle\caches\transforms-1\files-1.1\Android-PickerView-3.2.7.aar\e800caef8ba83239b5b201637fa36a4e\AndroidManifest.xml:7:5-9:41
+MERGED from [com.contrarywind:Android-PickerView:3.2.7] C:\Users\Nop\.gradle\caches\transforms-1\files-1.1\Android-PickerView-3.2.7.aar\e800caef8ba83239b5b201637fa36a4e\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:recyclerview-v7:27.0.1] C:\Users\Nop\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.0.1.aar\16077d95ec23b3b18c57177c0614184b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.0.1] C:\Users\Nop\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.0.1.aar\16077d95ec23b3b18c57177c0614184b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.0.1] C:\Users\Nop\.gradle\caches\transforms-1\files-1.1\transition-27.0.1.aar\cee280ff78bd644011594e8a3d2961d0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.0.1] C:\Users\Nop\.gradle\caches\transforms-1\files-1.1\transition-27.0.1.aar\cee280ff78bd644011594e8a3d2961d0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.0.1] C:\Users\Nop\.gradle\caches\transforms-1\files-1.1\support-v4-27.0.1.aar\ac0090ca52414a3dc7e1dfbbf90cc4fe\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.0.1] C:\Users\Nop\.gradle\caches\transforms-1\files-1.1\support-v4-27.0.1.aar\ac0090ca52414a3dc7e1dfbbf90cc4fe\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.0.1] C:\Users\Nop\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.0.1.aar\59d36c28850b9fe10051e406f52076a3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.0.1] C:\Users\Nop\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.0.1.aar\59d36c28850b9fe10051e406f52076a3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.0.1] C:\Users\Nop\.gradle\caches\transforms-1\files-1.1\support-fragment-27.0.1.aar\77ca5e394c67444e784598d095b74477\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.0.1] C:\Users\Nop\.gradle\caches\transforms-1\files-1.1\support-fragment-27.0.1.aar\77ca5e394c67444e784598d095b74477\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.0.1] C:\Users\Nop\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.0.1.aar\f57e92678dfd273bc4fa4a97ccbc30ef\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.0.1] C:\Users\Nop\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.0.1.aar\f57e92678dfd273bc4fa4a97ccbc30ef\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.0.1] C:\Users\Nop\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.0.1.aar\9b072152cb9534f9b3a4f691ea5474b0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.0.1] C:\Users\Nop\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.0.1.aar\9b072152cb9534f9b3a4f691ea5474b0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.0.1] C:\Users\Nop\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.0.1.aar\e83409a01ec2b623b84a12faa5523adc\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.0.1] C:\Users\Nop\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.0.1.aar\e83409a01ec2b623b84a12faa5523adc\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.0.1] C:\Users\Nop\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.0.1.aar\0a3ccc2620b8588e3e34e9ee27b559f7\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.0.1] C:\Users\Nop\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.0.1.aar\0a3ccc2620b8588e3e34e9ee27b559f7\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.0.1] C:\Users\Nop\.gradle\caches\transforms-1\files-1.1\support-compat-27.0.1.aar\2b9a0451e8bd199a77e367f03cd824e9\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.0.1] C:\Users\Nop\.gradle\caches\transforms-1\files-1.1\support-compat-27.0.1.aar\2b9a0451e8bd199a77e367f03cd824e9\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Nop\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\3a18e2ad1359cbf211efbdb721cdbd95\AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Nop\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\3a18e2ad1359cbf211efbdb721cdbd95\AndroidManifest.xml:20:5-22:41
+INJECTED from D:\MyProject\SM4forAndroid\app\src\main\AndroidManifest.xml
+INJECTED from D:\MyProject\SM4forAndroid\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from D:\MyProject\SM4forAndroid\app\src\main\AndroidManifest.xml
+		ADDED from D:\MyProject\SM4forAndroid\app\src\main\AndroidManifest.xml
+		INJECTED from D:\MyProject\SM4forAndroid\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\MyProject\SM4forAndroid\app\src\main\AndroidManifest.xml
+		ADDED from D:\MyProject\SM4forAndroid\app\src\main\AndroidManifest.xml
+		INJECTED from D:\MyProject\SM4forAndroid\app\src\main\AndroidManifest.xml
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from D:\MyProject\SM4forAndroid\app\src\main\AndroidManifest.xml:51:13-53:54
+	android:resource
+		ADDED from D:\MyProject\SM4forAndroid\app\src\main\AndroidManifest.xml:53:17-51
+	android:name
+		ADDED from D:\MyProject\SM4forAndroid\app\src\main\AndroidManifest.xml:52:17-67
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from [com.youth.xframe:xframe:1.1.2] C:\Users\Nop\.gradle\caches\transforms-1\files-1.1\xframe-1.1.2.aar\7f49a35f41f91aa0182844e7f332542b\AndroidManifest.xml:12:5-79
+	android:name
+		ADDED from [com.youth.xframe:xframe:1.1.2] C:\Users\Nop\.gradle\caches\transforms-1\files-1.1\xframe-1.1.2.aar\7f49a35f41f91aa0182844e7f332542b\AndroidManifest.xml:12:22-76
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from [com.youth.xframe:xframe:1.1.2] C:\Users\Nop\.gradle\caches\transforms-1\files-1.1\xframe-1.1.2.aar\7f49a35f41f91aa0182844e7f332542b\AndroidManifest.xml:13:5-81
+	android:name
+		ADDED from [com.youth.xframe:xframe:1.1.2] C:\Users\Nop\.gradle\caches\transforms-1\files-1.1\xframe-1.1.2.aar\7f49a35f41f91aa0182844e7f332542b\AndroidManifest.xml:13:22-78
+uses-permission#android.permission.RECEIVE_SMS
+ADDED from [com.youth.xframe:xframe:1.1.2] C:\Users\Nop\.gradle\caches\transforms-1\files-1.1\xframe-1.1.2.aar\7f49a35f41f91aa0182844e7f332542b\AndroidManifest.xml:14:5-70
+	android:name
+		ADDED from [com.youth.xframe:xframe:1.1.2] C:\Users\Nop\.gradle\caches\transforms-1\files-1.1\xframe-1.1.2.aar\7f49a35f41f91aa0182844e7f332542b\AndroidManifest.xml:14:22-67
+uses-permission#android.permission.GET_TASKS
+ADDED from [com.youth.xframe:xframe:1.1.2] C:\Users\Nop\.gradle\caches\transforms-1\files-1.1\xframe-1.1.2.aar\7f49a35f41f91aa0182844e7f332542b\AndroidManifest.xml:16:5-68
+	android:name
+		ADDED from [com.youth.xframe:xframe:1.1.2] C:\Users\Nop\.gradle\caches\transforms-1\files-1.1\xframe-1.1.2.aar\7f49a35f41f91aa0182844e7f332542b\AndroidManifest.xml:16:22-65
+meta-data#android.arch.lifecycle.VERSION
+ADDED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Nop\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\3a18e2ad1359cbf211efbdb721cdbd95\AndroidManifest.xml:25:9-27:47
+	android:value
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Nop\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\3a18e2ad1359cbf211efbdb721cdbd95\AndroidManifest.xml:27:13-44
+	android:name
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Nop\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\3a18e2ad1359cbf211efbdb721cdbd95\AndroidManifest.xml:26:13-58

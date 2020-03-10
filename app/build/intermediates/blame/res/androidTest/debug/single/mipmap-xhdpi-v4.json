@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "F:\\crypto\\Encryption\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap-xhdpi-v4\\ic_launcher.png",
+        "source": "F:\\crypto\\Encryption\\TestCipher-master\\build\\intermediates\\bundles\\debug\\res\\mipmap-xhdpi-v4\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\jiamichuli1\\jiamichuli\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap-xhdpi-v4\\ic_launcher.png",
+        "source": "D:\\AndroidStudioProjects\\jiamichuli1\\jiamichuli\\MessageEncrypt\\build\\intermediates\\bundles\\debug\\res\\mipmap-xhdpi-v4\\ic_launcher.png"
+    }
+]

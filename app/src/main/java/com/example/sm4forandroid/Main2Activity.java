@@ -6,6 +6,7 @@ import android.support.annotation.Nullable;
 import android.view.View;
 import android.widget.ImageButton;
 import com.app.R;
+import com.example.sm4forandroid.deal_ms.Message_main_activity;
 
 //import com.example.messageencrypt.Message_MainActivity;
 //import com.example.voiceencryption.VoiceEncryptionActivity;
@@ -58,13 +59,13 @@ public class Main2Activity extends BaseActivity{
 //            }
 //        });
 //        //短信加密
-//        message.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View view) {
-//                Intent intent = new Intent(Main2Activity.this, Message_MainActivity.class);
-//                startActivity(intent);
-//            }
-//        });
+        message.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(Main2Activity.this, Message_main_activity.class);
+                startActivity(intent);
+            }
+        });
 //        //图片加密
 //        picture.setOnClickListener(new View.OnClickListener() {
 //            @Override

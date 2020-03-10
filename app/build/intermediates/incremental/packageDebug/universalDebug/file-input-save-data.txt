@@ -1,0 +1,15 @@
+#Internal package file, do not edit.
+#Tue Mar 10 13:06:20 CST 2020
+1.base=D\:\\MyProject\\SM4forAndroid\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\76
+2.path=lib/armeabi/libmsc.so
+0.baseType=DIRECTORY
+2.base=D\:\\MyProject\\SM4forAndroid\\app\\build\\intermediates\\transforms\\mergeJniLibs\\debug\\0
+2.set=NATIVE_RESOURCE
+1.baseType=DIRECTORY
+count=3
+1.set=DEX
+0.path=litepal.xml
+0.set=ASSET
+0.base=D\:\\MyProject\\SM4forAndroid\\app\\build\\intermediates\\assets\\debug
+2.baseType=DIRECTORY
+1.path=classes.dex

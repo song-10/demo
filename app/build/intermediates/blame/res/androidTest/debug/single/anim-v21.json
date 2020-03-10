@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "D:\\AndroidStudioProjects\\jiamichuli1\\jiamichuli\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim-v21\\design_bottom_sheet_slide_out.xml",
+        "source": "C:\\Users\\lizhuo\\.gradle\\caches\\transforms-1\\files-1.1\\design-27.0.1.aar\\76db5e2cc09bdc76f46a489b6e63ef47\\res\\anim-v21\\design_bottom_sheet_slide_out.xml"
+    },
+    {
+        "merged": "F:\\crypto\\Encryption\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim-v21\\design_bottom_sheet_slide_in.xml",
+        "source": "C:\\Users\\Nop\\.gradle\\caches\\transforms-1\\files-1.1\\design-27.0.1.aar\\90570f8aec0b5c482b1db8ed1acbc87c\\res\\anim-v21\\design_bottom_sheet_slide_in.xml"
+    },
+    {
+        "merged": "F:\\crypto\\Encryption\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim-v21\\design_bottom_sheet_slide_out.xml",
+        "source": "C:\\Users\\Nop\\.gradle\\caches\\transforms-1\\files-1.1\\design-27.0.1.aar\\90570f8aec0b5c482b1db8ed1acbc87c\\res\\anim-v21\\design_bottom_sheet_slide_out.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\jiamichuli1\\jiamichuli\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim-v21\\design_bottom_sheet_slide_in.xml",
+        "source": "C:\\Users\\lizhuo\\.gradle\\caches\\transforms-1\\files-1.1\\design-27.0.1.aar\\76db5e2cc09bdc76f46a489b6e63ef47\\res\\anim-v21\\design_bottom_sheet_slide_in.xml"
+    }
+]
