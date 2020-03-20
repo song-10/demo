@@ -5,8 +5,7 @@
     android:layout_height="fill_parent"
     android:orientation="vertical"
     android:background="@drawable/main"
-    android:layout_gravity="center"
-    tools:context="com.app.Main2Activity">
+    android:layout_gravity="center">
 
     <LinearLayout
         android:layout_width="wrap_content"
@@ -39,7 +38,7 @@
                 android:textSize="20sp" />
 
             <ImageButton
-                android:id="@+id/bt_music"
+                android:id="@+id/bt_file"
                 android:layout_width="100dp"
                 android:layout_height="100dp"
                 android:layout_gravity="center"
@@ -79,22 +78,6 @@
                 android:text="@string/button3"
                 android:textSize="20sp" />
 
-            <ImageButton
-                android:id="@+id/bt_picture"
-                android:layout_width="100dp"
-                android:layout_height="100dp"
-                android:layout_gravity="center"
-                android:layout_marginTop="15dp"
-                android:background="@drawable/photo"
-                android:textSize="20sp"
-                tools:ignore="ContentDescription" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:text="@string/button4"
-                android:textSize="20sp" />
         </LinearLayout>
     </LinearLayout>
 </LinearLayout>

@@ -25,10 +25,8 @@
     <uses-permission android:name="android.permission.BROADCAST_STICKY" />
     <uses-permission android:name="android.permission.WRITE_SETTINGS" /> <!-- 允许程序改变网络连接状态 -->
     <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
-    <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.RECORD_AUDIO" />
     <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
     <uses-permission android:name="android.permission.SEND_SMS" /> <!-- 发送短信 -->
     <uses-permission android:name="android.permission.READ_SMS" />
@@ -78,6 +76,9 @@
         <activity android:name="com.example.sm4forandroid.deal_ms.ReceiveActivity" />
         <activity android:name="com.example.sm4forandroid.deal_ms.SendActivity" />
         <activity android:name="com.example.sm4forandroid.deal_ms.ReceiveActivity_show" />
+        <activity android:name="com.example.sm4forandroid.fileEncryption.VoiceEncryptActivity" />
+        <activity android:name="com.example.sm4forandroid.fileEncryption.ImageEncryptionActivity" />
+        <activity android:name="com.example.sm4forandroid.fileEncryption.VideoEncryptActivity" />
 
         <meta-data
             android:name="android.arch.lifecycle.VERSION"

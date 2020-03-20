@@ -1,1 +1,18 @@
-<resources></resources>
+<resources>
+    <string name="voice_encode">音频加密</string>
+    <string name="select_voice">浏览</string>
+    <string name="exp">输入文件路径</string>
+    <string name="play">播放</string>
+    <string name="pause">暂停</string>
+    <string name="iplay">停止</string>
+    <string name="Vencode">加密保存</string>
+    <string name="Vdecode">解密保存</string>
+
+    <string name="select_picture">浏览图片</string>
+    <string name="en_picture">加密保存</string>
+    <string name="de_picture">解密保存</string>
+    <string name="picture_status">状态</string>
+    <string name="pic_url">输入文件路径</string>
+    <string name="picture_encode">图片加密</string>
+    <string name="take_pic">拍摄照片</string>
+</resources>

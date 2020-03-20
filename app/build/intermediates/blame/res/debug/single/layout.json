@@ -872,6 +872,10 @@
         "source": "C:\\Users\\Nop\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.1.aar\\6cdb7da7aef8cdd6323fc357750dc027\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
     },
     {
+        "merged": "D:\\MyProject\\SM4forAndroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\voice_encryption.xml",
+        "source": "D:\\MyProject\\SM4forAndroid\\app\\src\\main\\res\\user\\layout\\voice_encryption.xml"
+    },
+    {
         "merged": "D:\\MyProject\\SM4forAndroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_content_include.xml",
         "source": "C:\\Users\\Nop\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.1.aar\\6cdb7da7aef8cdd6323fc357750dc027\\res\\layout\\abc_screen_content_include.xml"
     },
@@ -994,6 +998,10 @@
     {
         "merged": "D:\\MyProject\\SM4forAndroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_action.xml",
         "source": "C:\\Users\\Nop\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.1.aar\\2b9a0451e8bd199a77e367f03cd824e9\\res\\layout\\notification_action.xml"
+    },
+    {
+        "merged": "D:\\MyProject\\SM4forAndroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\image_encryption.xml",
+        "source": "D:\\MyProject\\SM4forAndroid\\app\\src\\main\\res\\user\\layout\\image_encryption.xml"
     },
     {
         "merged": "F:\\crypto\\Encryption\\app\\build\\intermediates\\res\\merged\\debug\\layout\\single_choose_dialog.xml",
@@ -1630,6 +1638,10 @@
     {
         "merged": "D:\\MyProject\\SM4forAndroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_snackbar.xml",
         "source": "C:\\Users\\Nop\\.gradle\\caches\\transforms-1\\files-1.1\\design-27.0.1.aar\\90570f8aec0b5c482b1db8ed1acbc87c\\res\\layout\\design_layout_snackbar.xml"
+    },
+    {
+        "merged": "D:\\MyProject\\SM4forAndroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\video_encryption.xml",
+        "source": "D:\\MyProject\\SM4forAndroid\\app\\src\\main\\res\\user\\layout\\video_encryption.xml"
     },
     {
         "merged": "D:\\MyProject\\SM4forAndroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_text_input_password_icon.xml",

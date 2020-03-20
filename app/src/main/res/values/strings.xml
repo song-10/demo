@@ -4,8 +4,7 @@
     <string name="loading1">失败了</string>
     <string name="loading2">加载失败，点击重试~~</string>
     <string name="button1">文本加密</string>
-    <string name="button2">音频加密</string>
+    <string name="button2">文件加解密</string>
     <string name="button3">短信加密</string>
-    <string name="button4">图片加密</string>
     <string name="info">绘制图案解锁应用(?)</string>
 </resources>
