@@ -77,8 +77,9 @@
         <activity android:name="com.example.sm4forandroid.deal_ms.SendActivity" />
         <activity android:name="com.example.sm4forandroid.deal_ms.ReceiveActivity_show" />
         <activity android:name="com.example.sm4forandroid.fileEncryption.VoiceEncryptActivity" />
-        <activity android:name="com.example.sm4forandroid.fileEncryption.ImageEncryptionActivity" />
+        <activity android:name="com.example.sm4forandroid.fileEncryption.ImageEncryptActivity" />
         <activity android:name="com.example.sm4forandroid.fileEncryption.VideoEncryptActivity" />
+        <activity android:name="com.example.sm4forandroid.fileEncryption.TxtEncryptActivity" />
 
         <meta-data
             android:name="android.arch.lifecycle.VERSION"

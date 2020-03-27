@@ -4,12 +4,12 @@
         "source": "C:\\Users\\Nop\\.gradle\\caches\\transforms-1\\files-1.1\\Android-PickerView-3.2.7.aar\\e800caef8ba83239b5b201637fa36a4e\\res\\anim\\pickerview_slide_in_bottom.xml"
     },
     {
-        "merged": "D:\\MyProject\\Encryption\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_bottom.xml",
-        "source": "C:\\Users\\Nop\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.1.aar\\6cdb7da7aef8cdd6323fc357750dc027\\res\\anim\\abc_slide_in_bottom.xml"
-    },
-    {
         "merged": "D:\\AndroidStudioProjects\\jiamichuli1\\jiamichuli\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_top.xml",
         "source": "C:\\Users\\lizhuo\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.1.aar\\725abd44eb56d1f829732cfa79ed94cb\\res\\anim\\abc_slide_in_top.xml"
+    },
+    {
+        "merged": "D:\\MyProject\\Encryption\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_bottom.xml",
+        "source": "C:\\Users\\Nop\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.1.aar\\6cdb7da7aef8cdd6323fc357750dc027\\res\\anim\\abc_slide_in_bottom.xml"
     },
     {
         "merged": "F:\\crypto\\jiamichuli\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_exit.xml",
@@ -84,12 +84,12 @@
         "source": "C:\\Users\\Nop\\.gradle\\caches\\transforms-1\\files-1.1\\design-27.0.1.aar\\90570f8aec0b5c482b1db8ed1acbc87c\\res\\anim\\design_bottom_sheet_slide_out.xml"
     },
     {
-        "merged": "D:\\MyProject\\Encryption\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_snackbar_out.xml",
-        "source": "C:\\Users\\Nop\\.gradle\\caches\\transforms-1\\files-1.1\\design-27.0.1.aar\\90570f8aec0b5c482b1db8ed1acbc87c\\res\\anim\\design_snackbar_out.xml"
-    },
-    {
         "merged": "D:\\MyProject\\Encryption\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_bottom.xml",
         "source": "C:\\Users\\Nop\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.1.aar\\6cdb7da7aef8cdd6323fc357750dc027\\res\\anim\\abc_slide_out_bottom.xml"
+    },
+    {
+        "merged": "D:\\MyProject\\Encryption\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_snackbar_out.xml",
+        "source": "C:\\Users\\Nop\\.gradle\\caches\\transforms-1\\files-1.1\\design-27.0.1.aar\\90570f8aec0b5c482b1db8ed1acbc87c\\res\\anim\\design_snackbar_out.xml"
     },
     {
         "merged": "F:\\crypto\\Encryption\\app\\build\\intermediates\\res\\merged\\debug\\anim\\pickerview_dialog_scale_in.xml",
@@ -140,12 +140,12 @@
         "source": "C:\\Users\\Nop\\.gradle\\caches\\transforms-1\\files-1.1\\design-27.0.1.aar\\90570f8aec0b5c482b1db8ed1acbc87c\\res\\anim\\design_snackbar_in.xml"
     },
     {
-        "merged": "F:\\crypto\\jiamichuli\\app\\build\\intermediates\\res\\merged\\debug\\anim\\tooltip_enter.xml",
-        "source": "C:\\Users\\Nop\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.1.aar\\6cdb7da7aef8cdd6323fc357750dc027\\res\\anim\\tooltip_enter.xml"
-    },
-    {
         "merged": "F:\\crypto\\jiamichuli\\app\\build\\intermediates\\res\\merged\\debug\\anim\\pickerview_dialog_scale_out.xml",
         "source": "C:\\Users\\Nop\\.gradle\\caches\\transforms-1\\files-1.1\\Android-PickerView-3.2.7.aar\\e800caef8ba83239b5b201637fa36a4e\\res\\anim\\pickerview_dialog_scale_out.xml"
+    },
+    {
+        "merged": "F:\\crypto\\jiamichuli\\app\\build\\intermediates\\res\\merged\\debug\\anim\\tooltip_enter.xml",
+        "source": "C:\\Users\\Nop\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.1.aar\\6cdb7da7aef8cdd6323fc357750dc027\\res\\anim\\tooltip_enter.xml"
     },
     {
         "merged": "F:\\crypto\\Encryption\\app\\build\\intermediates\\res\\merged\\debug\\anim\\tooltip_enter.xml",

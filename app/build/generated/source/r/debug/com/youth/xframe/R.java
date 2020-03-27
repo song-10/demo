@@ -673,7 +673,7 @@ public final class R {
         public static final int line3 = 0x7f0e0008;
         public static final int listMode = 0x7f0e0047;
         public static final int list_item = 0x7f0e008c;
-        public static final int loading_view = 0x7f0e011c;
+        public static final int loading_view = 0x7f0e011d;
         public static final int media_actions = 0x7f0e00f8;
         public static final int middle = 0x7f0e0074;
         public static final int multiply = 0x7f0e0056;
@@ -725,21 +725,21 @@ public final class R {
         public static final int title = 0x7f0e0015;
         public static final int titleDividerNoCustom = 0x7f0e009c;
         public static final int title_template = 0x7f0e009a;
-        public static final int toast_root = 0x7f0e011d;
+        public static final int toast_root = 0x7f0e011e;
         public static final int top = 0x7f0e0067;
         public static final int topPanel = 0x7f0e0099;
         public static final int up = 0x7f0e001b;
         public static final int useLogo = 0x7f0e004f;
         public static final int withText = 0x7f0e007f;
         public static final int wrap_content = 0x7f0e005c;
-        public static final int xframe_loading_message = 0x7f0e011b;
-        public static final int xframe_loading_progressbar = 0x7f0e011a;
-        public static final int xframe_loading_view = 0x7f0e0119;
+        public static final int xframe_loading_message = 0x7f0e011c;
+        public static final int xframe_loading_progressbar = 0x7f0e011b;
+        public static final int xframe_loading_view = 0x7f0e011a;
         public static final int xloading_retry = 0x7f0e001d;
         public static final int xstatusbar_fake_status_bar_view = 0x7f0e001e;
         public static final int xstatusbar_translucent_view = 0x7f0e001f;
-        public static final int xtoast_icon = 0x7f0e011e;
-        public static final int xtoast_text = 0x7f0e011f;
+        public static final int xtoast_icon = 0x7f0e011f;
+        public static final int xtoast_text = 0x7f0e0120;
     }
     public static final class integer {
         public static final int abc_config_activityDefaultDur = 0x7f0c0001;
@@ -796,12 +796,12 @@ public final class R {
         public static final int select_dialog_multichoice_material = 0x7f04004d;
         public static final int select_dialog_singlechoice_material = 0x7f04004e;
         public static final int support_simple_spinner_dropdown_item = 0x7f040050;
-        public static final int xloading_dialog = 0x7f040054;
-        public static final int xloading_empty_view = 0x7f040055;
-        public static final int xloading_error_view = 0x7f040056;
-        public static final int xloading_loading_view = 0x7f040057;
-        public static final int xloading_no_network_view = 0x7f040058;
-        public static final int xtoast_view = 0x7f040059;
+        public static final int xloading_dialog = 0x7f040055;
+        public static final int xloading_empty_view = 0x7f040056;
+        public static final int xloading_error_view = 0x7f040057;
+        public static final int xloading_loading_view = 0x7f040058;
+        public static final int xloading_no_network_view = 0x7f040059;
+        public static final int xtoast_view = 0x7f04005a;
     }
     public static final class string {
         public static final int abc_action_bar_home_description = 0x7f080000;

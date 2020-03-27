@@ -11,10 +11,10 @@ INJECTED from D:\MyProject\SM4forAndroid\app\src\main\AndroidManifest.xml:44:9-5
 	android:name
 		ADDED from D:\MyProject\SM4forAndroid\app\src\main\AndroidManifest.xml:45:13-67
 manifest
-ADDED from D:\MyProject\SM4forAndroid\app\src\main\AndroidManifest.xml:2:1-79:12
-INJECTED from D:\MyProject\SM4forAndroid\app\src\main\AndroidManifest.xml:2:1-79:12
-INJECTED from D:\MyProject\SM4forAndroid\app\src\main\AndroidManifest.xml:2:1-79:12
-INJECTED from D:\MyProject\SM4forAndroid\app\src\main\AndroidManifest.xml:2:1-79:12
+ADDED from D:\MyProject\SM4forAndroid\app\src\main\AndroidManifest.xml:2:1-80:12
+INJECTED from D:\MyProject\SM4forAndroid\app\src\main\AndroidManifest.xml:2:1-80:12
+INJECTED from D:\MyProject\SM4forAndroid\app\src\main\AndroidManifest.xml:2:1-80:12
+INJECTED from D:\MyProject\SM4forAndroid\app\src\main\AndroidManifest.xml:2:1-80:12
 MERGED from [com.yanzhenjie:permission:1.0.1] C:\Users\Nop\.gradle\caches\transforms-1\files-1.1\permission-1.0.1.aar\04102e769c67d32bcacd4bb7f4d8e270\AndroidManifest.xml:2:1-15:12
 MERGED from [com.youth.xframe:xframe:1.1.2] C:\Users\Nop\.gradle\caches\transforms-1\files-1.1\xframe-1.1.2.aar\7f49a35f41f91aa0182844e7f332542b\AndroidManifest.xml:2:1-26:12
 MERGED from [com.android.support:design:27.0.1] C:\Users\Nop\.gradle\caches\transforms-1\files-1.1\design-27.0.1.aar\90570f8aec0b5c482b1db8ed1acbc87c\AndroidManifest.xml:17:1-22:12
@@ -36,22 +36,22 @@ MERGED from [com.android.support:support-core-ui:27.0.1] C:\Users\Nop\.gradle\ca
 MERGED from [com.android.support:support-vector-drawable:27.0.1] C:\Users\Nop\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.0.1.aar\0a3ccc2620b8588e3e34e9ee27b559f7\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-compat:27.0.1] C:\Users\Nop\.gradle\caches\transforms-1\files-1.1\support-compat-27.0.1.aar\2b9a0451e8bd199a77e367f03cd824e9\AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Nop\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\3a18e2ad1359cbf211efbdb721cdbd95\AndroidManifest.xml:17:1-30:12
-INJECTED from D:\MyProject\SM4forAndroid\app\src\main\AndroidManifest.xml:2:1-79:12
-INJECTED from D:\MyProject\SM4forAndroid\app\src\main\AndroidManifest.xml:2:1-79:12
-INJECTED from D:\MyProject\SM4forAndroid\app\src\main\AndroidManifest.xml:2:1-79:12
+INJECTED from D:\MyProject\SM4forAndroid\app\src\main\AndroidManifest.xml:2:1-80:12
+INJECTED from D:\MyProject\SM4forAndroid\app\src\main\AndroidManifest.xml:2:1-80:12
+INJECTED from D:\MyProject\SM4forAndroid\app\src\main\AndroidManifest.xml:2:1-80:12
 	package
 		ADDED from D:\MyProject\SM4forAndroid\app\src\main\AndroidManifest.xml:4:5-22
 		INJECTED from D:\MyProject\SM4forAndroid\app\src\main\AndroidManifest.xml
 		INJECTED from D:\MyProject\SM4forAndroid\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from D:\MyProject\SM4forAndroid\app\src\main\AndroidManifest.xml
-		ADDED from D:\MyProject\SM4forAndroid\app\src\main\AndroidManifest.xml:2:1-79:12
+		ADDED from D:\MyProject\SM4forAndroid\app\src\main\AndroidManifest.xml:2:1-80:12
 		INJECTED from D:\MyProject\SM4forAndroid\app\src\main\AndroidManifest.xml
 	xmlns:tools
 		ADDED from D:\MyProject\SM4forAndroid\app\src\main\AndroidManifest.xml:3:5-51
 	android:versionCode
 		INJECTED from D:\MyProject\SM4forAndroid\app\src\main\AndroidManifest.xml
-		ADDED from D:\MyProject\SM4forAndroid\app\src\main\AndroidManifest.xml:2:1-79:12
+		ADDED from D:\MyProject\SM4forAndroid\app\src\main\AndroidManifest.xml:2:1-80:12
 		INJECTED from D:\MyProject\SM4forAndroid\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from D:\MyProject\SM4forAndroid\app\src\main\AndroidManifest.xml:2:11-69
@@ -158,7 +158,7 @@ MERGED from [com.youth.xframe:xframe:1.1.2] C:\Users\Nop\.gradle\caches\transfor
 	android:name
 		ADDED from D:\MyProject\SM4forAndroid\app\src\main\AndroidManifest.xml:31:22-64
 application
-ADDED from D:\MyProject\SM4forAndroid\app\src\main\AndroidManifest.xml:33:5-77:19
+ADDED from D:\MyProject\SM4forAndroid\app\src\main\AndroidManifest.xml:33:5-78:19
 MERGED from [com.yanzhenjie:permission:1.0.1] C:\Users\Nop\.gradle\caches\transforms-1\files-1.1\permission-1.0.1.aar\04102e769c67d32bcacd4bb7f4d8e270\AndroidManifest.xml:9:5-13:19
 MERGED from [com.yanzhenjie:permission:1.0.1] C:\Users\Nop\.gradle\caches\transforms-1\files-1.1\permission-1.0.1.aar\04102e769c67d32bcacd4bb7f4d8e270\AndroidManifest.xml:9:5-13:19
 MERGED from [com.youth.xframe:xframe:1.1.2] C:\Users\Nop\.gradle\caches\transforms-1\files-1.1\xframe-1.1.2.aar\7f49a35f41f91aa0182844e7f332542b\AndroidManifest.xml:21:5-24:19
@@ -239,14 +239,18 @@ activity#com.example.sm4forandroid.fileEncryption.VoiceEncryptActivity
 ADDED from D:\MyProject\SM4forAndroid\app\src\main\AndroidManifest.xml:74:9-97
 	android:name
 		ADDED from D:\MyProject\SM4forAndroid\app\src\main\AndroidManifest.xml:74:19-95
-activity#com.example.sm4forandroid.fileEncryption.ImageEncryptionActivity
-ADDED from D:\MyProject\SM4forAndroid\app\src\main\AndroidManifest.xml:75:9-100
+activity#com.example.sm4forandroid.fileEncryption.ImageEncryptActivity
+ADDED from D:\MyProject\SM4forAndroid\app\src\main\AndroidManifest.xml:75:9-97
 	android:name
-		ADDED from D:\MyProject\SM4forAndroid\app\src\main\AndroidManifest.xml:75:19-98
+		ADDED from D:\MyProject\SM4forAndroid\app\src\main\AndroidManifest.xml:75:19-95
 activity#com.example.sm4forandroid.fileEncryption.VideoEncryptActivity
 ADDED from D:\MyProject\SM4forAndroid\app\src\main\AndroidManifest.xml:76:9-97
 	android:name
 		ADDED from D:\MyProject\SM4forAndroid\app\src\main\AndroidManifest.xml:76:19-95
+activity#com.example.sm4forandroid.fileEncryption.TxtEncryptActivity
+ADDED from D:\MyProject\SM4forAndroid\app\src\main\AndroidManifest.xml:77:9-95
+	android:name
+		ADDED from D:\MyProject\SM4forAndroid\app\src\main\AndroidManifest.xml:77:19-93
 uses-sdk
 INJECTED from D:\MyProject\SM4forAndroid\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from D:\MyProject\SM4forAndroid\app\src\main\AndroidManifest.xml

@@ -419,38 +419,106 @@ containing a value of this type.
 <colgroup align="left" />
 <colgroup align="left" />
 <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-<tr><td><code>none</code></td><td>0x00000000</td><td></td></tr>
-<tr><td><code>text</code></td><td>0x00000001</td><td></td></tr>
-<tr><td><code>textCapCharacters</code></td><td>0x00001001</td><td></td></tr>
-<tr><td><code>textCapWords</code></td><td>0x00002001</td><td></td></tr>
-<tr><td><code>textCapSentences</code></td><td>0x00004001</td><td></td></tr>
-<tr><td><code>textAutoCorrect</code></td><td>0x00008001</td><td></td></tr>
-<tr><td><code>textAutoComplete</code></td><td>0x00010001</td><td></td></tr>
-<tr><td><code>textMultiLine</code></td><td>0x00020001</td><td></td></tr>
-<tr><td><code>textImeMultiLine</code></td><td>0x00040001</td><td></td></tr>
-<tr><td><code>textNoSuggestions</code></td><td>0x00080001</td><td></td></tr>
-<tr><td><code>textUri</code></td><td>0x00000011</td><td></td></tr>
-<tr><td><code>textEmailAddress</code></td><td>0x00000021</td><td></td></tr>
-<tr><td><code>textEmailSubject</code></td><td>0x00000031</td><td></td></tr>
-<tr><td><code>textShortMessage</code></td><td>0x00000041</td><td></td></tr>
-<tr><td><code>textLongMessage</code></td><td>0x00000051</td><td></td></tr>
-<tr><td><code>textPersonName</code></td><td>0x00000061</td><td></td></tr>
-<tr><td><code>textPostalAddress</code></td><td>0x00000071</td><td></td></tr>
-<tr><td><code>textPassword</code></td><td>0x00000081</td><td></td></tr>
-<tr><td><code>textVisiblePassword</code></td><td>0x00000091</td><td></td></tr>
-<tr><td><code>textWebEditText</code></td><td>0x000000a1</td><td></td></tr>
-<tr><td><code>textFilter</code></td><td>0x000000b1</td><td></td></tr>
-<tr><td><code>textPhonetic</code></td><td>0x000000c1</td><td></td></tr>
-<tr><td><code>textWebEmailAddress</code></td><td>0x000000d1</td><td></td></tr>
-<tr><td><code>textWebPassword</code></td><td>0x000000e1</td><td></td></tr>
-<tr><td><code>number</code></td><td>0x00000002</td><td></td></tr>
-<tr><td><code>numberSigned</code></td><td>0x00001002</td><td></td></tr>
-<tr><td><code>numberDecimal</code></td><td>0x00002002</td><td></td></tr>
-<tr><td><code>numberPassword</code></td><td>0x00000012</td><td></td></tr>
-<tr><td><code>phone</code></td><td>0x00000003</td><td></td></tr>
-<tr><td><code>datetime</code></td><td>0x00000004</td><td></td></tr>
-<tr><td><code>date</code></td><td>0x00000014</td><td></td></tr>
-<tr><td><code>time</code></td><td>0x00000024</td><td></td></tr>
+<tr><td><code>none</code></td><td>0x00000000</td><td> There is no content type.  The text is not editable. </td></tr>
+<tr><td><code>text</code></td><td>0x00000001</td><td> Just plain old text.  Corresponds to
+             {@link android.text.InputType#TYPE_CLASS_TEXT} |
+             {@link android.text.InputType#TYPE_TEXT_VARIATION_NORMAL}. </td></tr>
+<tr><td><code>textCapCharacters</code></td><td>0x00001001</td><td> Can be combined with <var>text</var> and its variations to
+             request capitalization of all characters.  Corresponds to
+             {@link android.text.InputType#TYPE_TEXT_FLAG_CAP_CHARACTERS}. </td></tr>
+<tr><td><code>textCapWords</code></td><td>0x00002001</td><td> Can be combined with <var>text</var> and its variations to
+             request capitalization of the first character of every word.  Corresponds to
+             {@link android.text.InputType#TYPE_TEXT_FLAG_CAP_WORDS}. </td></tr>
+<tr><td><code>textCapSentences</code></td><td>0x00004001</td><td> Can be combined with <var>text</var> and its variations to
+             request capitalization of the first character of every sentence.  Corresponds to
+             {@link android.text.InputType#TYPE_TEXT_FLAG_CAP_SENTENCES}. </td></tr>
+<tr><td><code>textAutoCorrect</code></td><td>0x00008001</td><td> Can be combined with <var>text</var> and its variations to
+             request auto-correction of text being input.  Corresponds to
+             {@link android.text.InputType#TYPE_TEXT_FLAG_AUTO_CORRECT}. </td></tr>
+<tr><td><code>textAutoComplete</code></td><td>0x00010001</td><td> Can be combined with <var>text</var> and its variations to
+             specify that this field will be doing its own auto-completion and
+             talking with the input method appropriately.  Corresponds to
+             {@link android.text.InputType#TYPE_TEXT_FLAG_AUTO_COMPLETE}. </td></tr>
+<tr><td><code>textMultiLine</code></td><td>0x00020001</td><td> Can be combined with <var>text</var> and its variations to
+             allow multiple lines of text in the field.  If this flag is not set,
+             the text field will be constrained to a single line.  Corresponds to
+             {@link android.text.InputType#TYPE_TEXT_FLAG_MULTI_LINE}. </td></tr>
+<tr><td><code>textImeMultiLine</code></td><td>0x00040001</td><td> Can be combined with <var>text</var> and its variations to
+             indicate that though the regular text view should not be multiple
+             lines, the IME should provide multiple lines if it can.  Corresponds to
+             {@link android.text.InputType#TYPE_TEXT_FLAG_IME_MULTI_LINE}. </td></tr>
+<tr><td><code>textNoSuggestions</code></td><td>0x00080001</td><td> Can be combined with <var>text</var> and its variations to
+             indicate that the IME should not show any
+             dictionary-based word suggestions.  Corresponds to
+             {@link android.text.InputType#TYPE_TEXT_FLAG_NO_SUGGESTIONS}. </td></tr>
+<tr><td><code>textUri</code></td><td>0x00000011</td><td> Text that will be used as a URI.  Corresponds to
+             {@link android.text.InputType#TYPE_CLASS_TEXT} |
+             {@link android.text.InputType#TYPE_TEXT_VARIATION_URI}. </td></tr>
+<tr><td><code>textEmailAddress</code></td><td>0x00000021</td><td> Text that will be used as an e-mail address.  Corresponds to
+             {@link android.text.InputType#TYPE_CLASS_TEXT} |
+             {@link android.text.InputType#TYPE_TEXT_VARIATION_EMAIL_ADDRESS}. </td></tr>
+<tr><td><code>textEmailSubject</code></td><td>0x00000031</td><td> Text that is being supplied as the subject of an e-mail.  Corresponds to
+             {@link android.text.InputType#TYPE_CLASS_TEXT} |
+             {@link android.text.InputType#TYPE_TEXT_VARIATION_EMAIL_SUBJECT}. </td></tr>
+<tr><td><code>textShortMessage</code></td><td>0x00000041</td><td> Text that is the content of a short message.  Corresponds to
+             {@link android.text.InputType#TYPE_CLASS_TEXT} |
+             {@link android.text.InputType#TYPE_TEXT_VARIATION_SHORT_MESSAGE}. </td></tr>
+<tr><td><code>textLongMessage</code></td><td>0x00000051</td><td> Text that is the content of a long message.  Corresponds to
+             {@link android.text.InputType#TYPE_CLASS_TEXT} |
+             {@link android.text.InputType#TYPE_TEXT_VARIATION_LONG_MESSAGE}. </td></tr>
+<tr><td><code>textPersonName</code></td><td>0x00000061</td><td> Text that is the name of a person.  Corresponds to
+             {@link android.text.InputType#TYPE_CLASS_TEXT} |
+             {@link android.text.InputType#TYPE_TEXT_VARIATION_PERSON_NAME}. </td></tr>
+<tr><td><code>textPostalAddress</code></td><td>0x00000071</td><td> Text that is being supplied as a postal mailing address.  Corresponds to
+             {@link android.text.InputType#TYPE_CLASS_TEXT} |
+             {@link android.text.InputType#TYPE_TEXT_VARIATION_POSTAL_ADDRESS}. </td></tr>
+<tr><td><code>textPassword</code></td><td>0x00000081</td><td> Text that is a password.  Corresponds to
+             {@link android.text.InputType#TYPE_CLASS_TEXT} |
+             {@link android.text.InputType#TYPE_TEXT_VARIATION_PASSWORD}. </td></tr>
+<tr><td><code>textVisiblePassword</code></td><td>0x00000091</td><td> Text that is a password that should be visible.  Corresponds to
+             {@link android.text.InputType#TYPE_CLASS_TEXT} |
+             {@link android.text.InputType#TYPE_TEXT_VARIATION_VISIBLE_PASSWORD}. </td></tr>
+<tr><td><code>textWebEditText</code></td><td>0x000000a1</td><td> Text that is being supplied as text in a web form.  Corresponds to
+             {@link android.text.InputType#TYPE_CLASS_TEXT} |
+             {@link android.text.InputType#TYPE_TEXT_VARIATION_WEB_EDIT_TEXT}. </td></tr>
+<tr><td><code>textFilter</code></td><td>0x000000b1</td><td> Text that is filtering some other data.  Corresponds to
+             {@link android.text.InputType#TYPE_CLASS_TEXT} |
+             {@link android.text.InputType#TYPE_TEXT_VARIATION_FILTER}. </td></tr>
+<tr><td><code>textPhonetic</code></td><td>0x000000c1</td><td> Text that is for phonetic pronunciation, such as a phonetic name
+             field in a contact entry.  Corresponds to
+             {@link android.text.InputType#TYPE_CLASS_TEXT} |
+             {@link android.text.InputType#TYPE_TEXT_VARIATION_PHONETIC}. </td></tr>
+<tr><td><code>textWebEmailAddress</code></td><td>0x000000d1</td><td> Text that will be used as an e-mail address on a web form.  Corresponds to
+             {@link android.text.InputType#TYPE_CLASS_TEXT} |
+             {@link android.text.InputType#TYPE_TEXT_VARIATION_WEB_EMAIL_ADDRESS}. </td></tr>
+<tr><td><code>textWebPassword</code></td><td>0x000000e1</td><td> Text that will be used as a password on a web form.  Corresponds to
+             {@link android.text.InputType#TYPE_CLASS_TEXT} |
+             {@link android.text.InputType#TYPE_TEXT_VARIATION_WEB_PASSWORD}. </td></tr>
+<tr><td><code>number</code></td><td>0x00000002</td><td> A numeric only field.  Corresponds to
+             {@link android.text.InputType#TYPE_CLASS_NUMBER} |
+             {@link android.text.InputType#TYPE_NUMBER_VARIATION_NORMAL}. </td></tr>
+<tr><td><code>numberSigned</code></td><td>0x00001002</td><td> Can be combined with <var>number</var> and its other options to
+             allow a signed number.  Corresponds to
+             {@link android.text.InputType#TYPE_CLASS_NUMBER} |
+             {@link android.text.InputType#TYPE_NUMBER_FLAG_SIGNED}. </td></tr>
+<tr><td><code>numberDecimal</code></td><td>0x00002002</td><td> Can be combined with <var>number</var> and its other options to
+             allow a decimal (fractional) number.  Corresponds to
+             {@link android.text.InputType#TYPE_CLASS_NUMBER} |
+             {@link android.text.InputType#TYPE_NUMBER_FLAG_DECIMAL}. </td></tr>
+<tr><td><code>numberPassword</code></td><td>0x00000012</td><td> A numeric password field.  Corresponds to
+             {@link android.text.InputType#TYPE_CLASS_NUMBER} |
+             {@link android.text.InputType#TYPE_NUMBER_VARIATION_PASSWORD}. </td></tr>
+<tr><td><code>phone</code></td><td>0x00000003</td><td> For entering a phone number.  Corresponds to
+             {@link android.text.InputType#TYPE_CLASS_PHONE}. </td></tr>
+<tr><td><code>datetime</code></td><td>0x00000004</td><td> For entering a date and time.  Corresponds to
+             {@link android.text.InputType#TYPE_CLASS_DATETIME} |
+             {@link android.text.InputType#TYPE_DATETIME_VARIATION_NORMAL}. </td></tr>
+<tr><td><code>date</code></td><td>0x00000014</td><td> For entering a date.  Corresponds to
+             {@link android.text.InputType#TYPE_CLASS_DATETIME} |
+             {@link android.text.InputType#TYPE_DATETIME_VARIATION_DATE}. </td></tr>
+<tr><td><code>time</code></td><td>0x00000024</td><td> For entering a time.  Corresponds to
+             {@link android.text.InputType#TYPE_CLASS_DATETIME} |
+             {@link android.text.InputType#TYPE_DATETIME_VARIATION_TIME}. </td></tr>
 </table>
          */
         public static final int bc_input_type=0x7f010000;
@@ -4116,7 +4184,7 @@ containing a value of this type.
         public static final int chains=0x7f0e0046;
         public static final int checkbox=0x7f0e009e;
         public static final int choose_from_album=0x7f0e00e8;
-        public static final int choose_from_files=0x7f0e0111;
+        public static final int choose_from_files=0x7f0e0112;
         public static final int chronometer=0x7f0e00fd;
         public static final int clip_horizontal=0x7f0e006a;
         public static final int clip_vertical=0x7f0e006b;
@@ -4135,7 +4203,7 @@ containing a value of this type.
         public static final int day=0x7f0e010b;
         public static final int decode=0x7f0e00bb;
         public static final int decor_content_parent=0x7f0e00a5;
-        public static final int decryptionButton=0x7f0e0116;
+        public static final int decryptionButton=0x7f0e0117;
         public static final int default_activity_button=0x7f0e008b;
         public static final int design_bottom_sheet=0x7f0e00dc;
         public static final int design_menu_item_action_area=0x7f0e00e3;
@@ -4148,7 +4216,7 @@ containing a value of this type.
         public static final int edit_plaintext=0x7f0e00b6;
         public static final int edit_query=0x7f0e00a9;
         public static final int encode=0x7f0e00ba;
-        public static final int encryptionButton=0x7f0e0115;
+        public static final int encryptionButton=0x7f0e0116;
         public static final int end=0x7f0e0062;
         public static final int end_padder=0x7f0e0103;
         public static final int enterAlways=0x7f0e0050;
@@ -4172,7 +4240,7 @@ containing a value of this type.
         public static final int image=0x7f0e008a;
         public static final int info=0x7f0e00fe;
         public static final int info_rights=0x7f0e00d0;
-        public static final int iplay=0x7f0e0114;
+        public static final int iplay=0x7f0e0115;
         public static final int italic=0x7f0e0072;
         public static final int item_touch_helper_previous_elevation=0x7f0e0006;
         public static final int largeLabel=0x7f0e00d8;
@@ -4184,8 +4252,8 @@ containing a value of this type.
         public static final int listMode=0x7f0e0047;
         public static final int list_item=0x7f0e008c;
         public static final int list_receive=0x7f0e00c1;
-        public static final int loading_view=0x7f0e011c;
-        public static final int masked=0x7f0e0121;
+        public static final int loading_view=0x7f0e011d;
+        public static final int masked=0x7f0e0122;
         public static final int media_actions=0x7f0e00f8;
         public static final int message=0x7f0e0110;
         public static final int middle=0x7f0e0074;
@@ -4215,12 +4283,12 @@ containing a value of this type.
         public static final int parentPanel=0x7f0e0090;
         public static final int parent_matrix=0x7f0e0009;
         public static final int patter_lock_view=0x7f0e00cb;
-        public static final int pause=0x7f0e0113;
+        public static final int pause=0x7f0e0114;
         public static final int phone=0x7f0e0027;
         public static final int phone_edit_text=0x7f0e00cc;
         public static final int picture=0x7f0e00e6;
         public static final int pin=0x7f0e0069;
-        public static final int play=0x7f0e0112;
+        public static final int play=0x7f0e0113;
         public static final int progress_circular=0x7f0e000a;
         public static final int progress_horizontal=0x7f0e000b;
         public static final int radio=0x7f0e00a0;
@@ -4270,7 +4338,7 @@ containing a value of this type.
         public static final int src_over=0x7f0e005a;
         public static final int start=0x7f0e0066;
         public static final int status_bar_latest_event_content=0x7f0e00f7;
-        public static final int stop=0x7f0e0118;
+        public static final int stop=0x7f0e0119;
         public static final int submenuarrow=0x7f0e00a1;
         public static final int submit_area=0x7f0e00b2;
         public static final int tabMode=0x7f0e0049;
@@ -4311,7 +4379,7 @@ containing a value of this type.
         public static final int title=0x7f0e0015;
         public static final int titleDividerNoCustom=0x7f0e009c;
         public static final int title_template=0x7f0e009a;
-        public static final int toast_root=0x7f0e011d;
+        public static final int toast_root=0x7f0e011e;
         public static final int top=0x7f0e0067;
         public static final int topPanel=0x7f0e0099;
         public static final int touch_outside=0x7f0e00db;
@@ -4325,24 +4393,25 @@ containing a value of this type.
         public static final int tv_body=0x7f0e00c4;
         public static final int tv_status=0x7f0e00eb;
         public static final int tv_time=0x7f0e00c5;
+        public static final int txt_content=0x7f0e0111;
         public static final int uniform=0x7f0e005b;
         public static final int up=0x7f0e001b;
         public static final int useLogo=0x7f0e004f;
-        public static final int video_view=0x7f0e0117;
+        public static final int video_view=0x7f0e0118;
         public static final int view_offset_helper=0x7f0e001c;
-        public static final int visible=0x7f0e0120;
+        public static final int visible=0x7f0e0121;
         public static final int width_bias=0x7f0e0082;
         public static final int withText=0x7f0e007f;
         public static final int wrap=0x7f0e0041;
         public static final int wrap_content=0x7f0e005c;
-        public static final int xframe_loading_message=0x7f0e011b;
-        public static final int xframe_loading_progressbar=0x7f0e011a;
-        public static final int xframe_loading_view=0x7f0e0119;
+        public static final int xframe_loading_message=0x7f0e011c;
+        public static final int xframe_loading_progressbar=0x7f0e011b;
+        public static final int xframe_loading_view=0x7f0e011a;
         public static final int xloading_retry=0x7f0e001d;
         public static final int xstatusbar_fake_status_bar_view=0x7f0e001e;
         public static final int xstatusbar_translucent_view=0x7f0e001f;
-        public static final int xtoast_icon=0x7f0e011e;
-        public static final int xtoast_text=0x7f0e011f;
+        public static final int xtoast_icon=0x7f0e011f;
+        public static final int xtoast_text=0x7f0e0120;
         public static final int year=0x7f0e0109;
     }
     public static final class integer {
@@ -4441,14 +4510,15 @@ containing a value of this type.
         public static final int single_choose_dialog=0x7f04004f;
         public static final int support_simple_spinner_dropdown_item=0x7f040050;
         public static final int tooltip=0x7f040051;
-        public static final int video_encryption=0x7f040052;
-        public static final int voice_encryption=0x7f040053;
-        public static final int xloading_dialog=0x7f040054;
-        public static final int xloading_empty_view=0x7f040055;
-        public static final int xloading_error_view=0x7f040056;
-        public static final int xloading_loading_view=0x7f040057;
-        public static final int xloading_no_network_view=0x7f040058;
-        public static final int xtoast_view=0x7f040059;
+        public static final int txt_encryption=0x7f040052;
+        public static final int video_encryption=0x7f040053;
+        public static final int voice_encryption=0x7f040054;
+        public static final int xloading_dialog=0x7f040055;
+        public static final int xloading_empty_view=0x7f040056;
+        public static final int xloading_error_view=0x7f040057;
+        public static final int xloading_loading_view=0x7f040058;
+        public static final int xloading_no_network_view=0x7f040059;
+        public static final int xtoast_view=0x7f04005a;
     }
     public static final class mipmap {
         public static final int ic_launcher=0x7f030000;
@@ -10918,38 +10988,106 @@ containing a value of this type.
 <colgroup align="left" />
 <colgroup align="left" />
 <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-<tr><td><code>none</code></td><td>0x00000000</td><td></td></tr>
-<tr><td><code>text</code></td><td>0x00000001</td><td></td></tr>
-<tr><td><code>textCapCharacters</code></td><td>0x00001001</td><td></td></tr>
-<tr><td><code>textCapWords</code></td><td>0x00002001</td><td></td></tr>
-<tr><td><code>textCapSentences</code></td><td>0x00004001</td><td></td></tr>
-<tr><td><code>textAutoCorrect</code></td><td>0x00008001</td><td></td></tr>
-<tr><td><code>textAutoComplete</code></td><td>0x00010001</td><td></td></tr>
-<tr><td><code>textMultiLine</code></td><td>0x00020001</td><td></td></tr>
-<tr><td><code>textImeMultiLine</code></td><td>0x00040001</td><td></td></tr>
-<tr><td><code>textNoSuggestions</code></td><td>0x00080001</td><td></td></tr>
-<tr><td><code>textUri</code></td><td>0x00000011</td><td></td></tr>
-<tr><td><code>textEmailAddress</code></td><td>0x00000021</td><td></td></tr>
-<tr><td><code>textEmailSubject</code></td><td>0x00000031</td><td></td></tr>
-<tr><td><code>textShortMessage</code></td><td>0x00000041</td><td></td></tr>
-<tr><td><code>textLongMessage</code></td><td>0x00000051</td><td></td></tr>
-<tr><td><code>textPersonName</code></td><td>0x00000061</td><td></td></tr>
-<tr><td><code>textPostalAddress</code></td><td>0x00000071</td><td></td></tr>
-<tr><td><code>textPassword</code></td><td>0x00000081</td><td></td></tr>
-<tr><td><code>textVisiblePassword</code></td><td>0x00000091</td><td></td></tr>
-<tr><td><code>textWebEditText</code></td><td>0x000000a1</td><td></td></tr>
-<tr><td><code>textFilter</code></td><td>0x000000b1</td><td></td></tr>
-<tr><td><code>textPhonetic</code></td><td>0x000000c1</td><td></td></tr>
-<tr><td><code>textWebEmailAddress</code></td><td>0x000000d1</td><td></td></tr>
-<tr><td><code>textWebPassword</code></td><td>0x000000e1</td><td></td></tr>
-<tr><td><code>number</code></td><td>0x00000002</td><td></td></tr>
-<tr><td><code>numberSigned</code></td><td>0x00001002</td><td></td></tr>
-<tr><td><code>numberDecimal</code></td><td>0x00002002</td><td></td></tr>
-<tr><td><code>numberPassword</code></td><td>0x00000012</td><td></td></tr>
-<tr><td><code>phone</code></td><td>0x00000003</td><td></td></tr>
-<tr><td><code>datetime</code></td><td>0x00000004</td><td></td></tr>
-<tr><td><code>date</code></td><td>0x00000014</td><td></td></tr>
-<tr><td><code>time</code></td><td>0x00000024</td><td></td></tr>
+<tr><td><code>none</code></td><td>0x00000000</td><td> There is no content type.  The text is not editable. </td></tr>
+<tr><td><code>text</code></td><td>0x00000001</td><td> Just plain old text.  Corresponds to
+             {@link android.text.InputType#TYPE_CLASS_TEXT} |
+             {@link android.text.InputType#TYPE_TEXT_VARIATION_NORMAL}. </td></tr>
+<tr><td><code>textCapCharacters</code></td><td>0x00001001</td><td> Can be combined with <var>text</var> and its variations to
+             request capitalization of all characters.  Corresponds to
+             {@link android.text.InputType#TYPE_TEXT_FLAG_CAP_CHARACTERS}. </td></tr>
+<tr><td><code>textCapWords</code></td><td>0x00002001</td><td> Can be combined with <var>text</var> and its variations to
+             request capitalization of the first character of every word.  Corresponds to
+             {@link android.text.InputType#TYPE_TEXT_FLAG_CAP_WORDS}. </td></tr>
+<tr><td><code>textCapSentences</code></td><td>0x00004001</td><td> Can be combined with <var>text</var> and its variations to
+             request capitalization of the first character of every sentence.  Corresponds to
+             {@link android.text.InputType#TYPE_TEXT_FLAG_CAP_SENTENCES}. </td></tr>
+<tr><td><code>textAutoCorrect</code></td><td>0x00008001</td><td> Can be combined with <var>text</var> and its variations to
+             request auto-correction of text being input.  Corresponds to
+             {@link android.text.InputType#TYPE_TEXT_FLAG_AUTO_CORRECT}. </td></tr>
+<tr><td><code>textAutoComplete</code></td><td>0x00010001</td><td> Can be combined with <var>text</var> and its variations to
+             specify that this field will be doing its own auto-completion and
+             talking with the input method appropriately.  Corresponds to
+             {@link android.text.InputType#TYPE_TEXT_FLAG_AUTO_COMPLETE}. </td></tr>
+<tr><td><code>textMultiLine</code></td><td>0x00020001</td><td> Can be combined with <var>text</var> and its variations to
+             allow multiple lines of text in the field.  If this flag is not set,
+             the text field will be constrained to a single line.  Corresponds to
+             {@link android.text.InputType#TYPE_TEXT_FLAG_MULTI_LINE}. </td></tr>
+<tr><td><code>textImeMultiLine</code></td><td>0x00040001</td><td> Can be combined with <var>text</var> and its variations to
+             indicate that though the regular text view should not be multiple
+             lines, the IME should provide multiple lines if it can.  Corresponds to
+             {@link android.text.InputType#TYPE_TEXT_FLAG_IME_MULTI_LINE}. </td></tr>
+<tr><td><code>textNoSuggestions</code></td><td>0x00080001</td><td> Can be combined with <var>text</var> and its variations to
+             indicate that the IME should not show any
+             dictionary-based word suggestions.  Corresponds to
+             {@link android.text.InputType#TYPE_TEXT_FLAG_NO_SUGGESTIONS}. </td></tr>
+<tr><td><code>textUri</code></td><td>0x00000011</td><td> Text that will be used as a URI.  Corresponds to
+             {@link android.text.InputType#TYPE_CLASS_TEXT} |
+             {@link android.text.InputType#TYPE_TEXT_VARIATION_URI}. </td></tr>
+<tr><td><code>textEmailAddress</code></td><td>0x00000021</td><td> Text that will be used as an e-mail address.  Corresponds to
+             {@link android.text.InputType#TYPE_CLASS_TEXT} |
+             {@link android.text.InputType#TYPE_TEXT_VARIATION_EMAIL_ADDRESS}. </td></tr>
+<tr><td><code>textEmailSubject</code></td><td>0x00000031</td><td> Text that is being supplied as the subject of an e-mail.  Corresponds to
+             {@link android.text.InputType#TYPE_CLASS_TEXT} |
+             {@link android.text.InputType#TYPE_TEXT_VARIATION_EMAIL_SUBJECT}. </td></tr>
+<tr><td><code>textShortMessage</code></td><td>0x00000041</td><td> Text that is the content of a short message.  Corresponds to
+             {@link android.text.InputType#TYPE_CLASS_TEXT} |
+             {@link android.text.InputType#TYPE_TEXT_VARIATION_SHORT_MESSAGE}. </td></tr>
+<tr><td><code>textLongMessage</code></td><td>0x00000051</td><td> Text that is the content of a long message.  Corresponds to
+             {@link android.text.InputType#TYPE_CLASS_TEXT} |
+             {@link android.text.InputType#TYPE_TEXT_VARIATION_LONG_MESSAGE}. </td></tr>
+<tr><td><code>textPersonName</code></td><td>0x00000061</td><td> Text that is the name of a person.  Corresponds to
+             {@link android.text.InputType#TYPE_CLASS_TEXT} |
+             {@link android.text.InputType#TYPE_TEXT_VARIATION_PERSON_NAME}. </td></tr>
+<tr><td><code>textPostalAddress</code></td><td>0x00000071</td><td> Text that is being supplied as a postal mailing address.  Corresponds to
+             {@link android.text.InputType#TYPE_CLASS_TEXT} |
+             {@link android.text.InputType#TYPE_TEXT_VARIATION_POSTAL_ADDRESS}. </td></tr>
+<tr><td><code>textPassword</code></td><td>0x00000081</td><td> Text that is a password.  Corresponds to
+             {@link android.text.InputType#TYPE_CLASS_TEXT} |
+             {@link android.text.InputType#TYPE_TEXT_VARIATION_PASSWORD}. </td></tr>
+<tr><td><code>textVisiblePassword</code></td><td>0x00000091</td><td> Text that is a password that should be visible.  Corresponds to
+             {@link android.text.InputType#TYPE_CLASS_TEXT} |
+             {@link android.text.InputType#TYPE_TEXT_VARIATION_VISIBLE_PASSWORD}. </td></tr>
+<tr><td><code>textWebEditText</code></td><td>0x000000a1</td><td> Text that is being supplied as text in a web form.  Corresponds to
+             {@link android.text.InputType#TYPE_CLASS_TEXT} |
+             {@link android.text.InputType#TYPE_TEXT_VARIATION_WEB_EDIT_TEXT}. </td></tr>
+<tr><td><code>textFilter</code></td><td>0x000000b1</td><td> Text that is filtering some other data.  Corresponds to
+             {@link android.text.InputType#TYPE_CLASS_TEXT} |
+             {@link android.text.InputType#TYPE_TEXT_VARIATION_FILTER}. </td></tr>
+<tr><td><code>textPhonetic</code></td><td>0x000000c1</td><td> Text that is for phonetic pronunciation, such as a phonetic name
+             field in a contact entry.  Corresponds to
+             {@link android.text.InputType#TYPE_CLASS_TEXT} |
+             {@link android.text.InputType#TYPE_TEXT_VARIATION_PHONETIC}. </td></tr>
+<tr><td><code>textWebEmailAddress</code></td><td>0x000000d1</td><td> Text that will be used as an e-mail address on a web form.  Corresponds to
+             {@link android.text.InputType#TYPE_CLASS_TEXT} |
+             {@link android.text.InputType#TYPE_TEXT_VARIATION_WEB_EMAIL_ADDRESS}. </td></tr>
+<tr><td><code>textWebPassword</code></td><td>0x000000e1</td><td> Text that will be used as a password on a web form.  Corresponds to
+             {@link android.text.InputType#TYPE_CLASS_TEXT} |
+             {@link android.text.InputType#TYPE_TEXT_VARIATION_WEB_PASSWORD}. </td></tr>
+<tr><td><code>number</code></td><td>0x00000002</td><td> A numeric only field.  Corresponds to
+             {@link android.text.InputType#TYPE_CLASS_NUMBER} |
+             {@link android.text.InputType#TYPE_NUMBER_VARIATION_NORMAL}. </td></tr>
+<tr><td><code>numberSigned</code></td><td>0x00001002</td><td> Can be combined with <var>number</var> and its other options to
+             allow a signed number.  Corresponds to
+             {@link android.text.InputType#TYPE_CLASS_NUMBER} |
+             {@link android.text.InputType#TYPE_NUMBER_FLAG_SIGNED}. </td></tr>
+<tr><td><code>numberDecimal</code></td><td>0x00002002</td><td> Can be combined with <var>number</var> and its other options to
+             allow a decimal (fractional) number.  Corresponds to
+             {@link android.text.InputType#TYPE_CLASS_NUMBER} |
+             {@link android.text.InputType#TYPE_NUMBER_FLAG_DECIMAL}. </td></tr>
+<tr><td><code>numberPassword</code></td><td>0x00000012</td><td> A numeric password field.  Corresponds to
+             {@link android.text.InputType#TYPE_CLASS_NUMBER} |
+             {@link android.text.InputType#TYPE_NUMBER_VARIATION_PASSWORD}. </td></tr>
+<tr><td><code>phone</code></td><td>0x00000003</td><td> For entering a phone number.  Corresponds to
+             {@link android.text.InputType#TYPE_CLASS_PHONE}. </td></tr>
+<tr><td><code>datetime</code></td><td>0x00000004</td><td> For entering a date and time.  Corresponds to
+             {@link android.text.InputType#TYPE_CLASS_DATETIME} |
+             {@link android.text.InputType#TYPE_DATETIME_VARIATION_NORMAL}. </td></tr>
+<tr><td><code>date</code></td><td>0x00000014</td><td> For entering a date.  Corresponds to
+             {@link android.text.InputType#TYPE_CLASS_DATETIME} |
+             {@link android.text.InputType#TYPE_DATETIME_VARIATION_DATE}. </td></tr>
+<tr><td><code>time</code></td><td>0x00000024</td><td> For entering a time.  Corresponds to
+             {@link android.text.InputType#TYPE_CLASS_DATETIME} |
+             {@link android.text.InputType#TYPE_DATETIME_VARIATION_TIME}. </td></tr>
 </table>
           @attr name com.tuge.sm4forandroid:bc_input_type
         */

@@ -18,13 +18,14 @@ BaseActivity extends XActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
+        setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_UNSPECIFIED);
         super.onCreate(savedInstanceState);
         String title=getIntent().getStringExtra("title");
 
         if (TextUtils.isEmpty(title))
             title=getString(R.string.app_name);
         ActionBar bar=getSupportActionBar();
+        assert bar != null;
         bar.setIcon(R.mipmap.ic_launcher);
         bar.setTitle(title);
         if (!title.equals(getString(R.string.app_name)))

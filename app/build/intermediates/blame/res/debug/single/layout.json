@@ -968,6 +968,10 @@
         "source": "C:\\Users\\Nop\\.gradle\\caches\\transforms-1\\files-1.1\\design-27.0.1.aar\\90570f8aec0b5c482b1db8ed1acbc87c\\res\\layout\\design_text_input_password_icon.xml"
     },
     {
+        "merged": "D:\\MyProject\\SM4forAndroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\txt_encryption.xml",
+        "source": "D:\\MyProject\\SM4forAndroid\\app\\src\\main\\res\\user\\layout\\txt_encryption.xml"
+    },
+    {
         "merged": "F:\\crypto\\Encryption\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_select_dialog_material.xml",
         "source": "C:\\Users\\Nop\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.1.aar\\6cdb7da7aef8cdd6323fc357750dc027\\res\\layout\\abc_select_dialog_material.xml"
     },

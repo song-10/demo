@@ -9,9 +9,10 @@ import android.view.View;
 import android.widget.ImageButton;
 import com.app.R;
 import com.example.sm4forandroid.deal_ms.Message_main_activity;
-import com.example.sm4forandroid.fileEncryption.ImageEncryptionActivity;
+import com.example.sm4forandroid.fileEncryption.ImageEncryptActivity;
 import com.example.sm4forandroid.fileEncryption.VideoEncryptActivity;
 import com.example.sm4forandroid.fileEncryption.VoiceEncryptActivity;
+import com.example.sm4forandroid.fileEncryption.TxtEncryptActivity;
 
 import butterknife.ButterKnife;
 
@@ -76,12 +77,12 @@ public class Main2Activity extends BaseActivity{
             @Override
             public void onClick(DialogInterface dialogInterface, int which) {
                 if(which == 0) {
-//                            Intent intent = new Intent(Main2Activity.this,TxtEncryptActivity.class);
-//                            startActivity(intent);
-//                            alertDialog.dismiss();
+                            Intent intent = new Intent(Main2Activity.this,TxtEncryptActivity.class);
+                            startActivity(intent);
+                            alertDialog.dismiss();
                 }
                 else if(which == 1){
-                            Intent intent = new Intent(Main2Activity.this, ImageEncryptionActivity.class);
+                            Intent intent = new Intent(Main2Activity.this, ImageEncryptActivity.class);
                             startActivity(intent);
                             alertDialog.dismiss();
                 }
