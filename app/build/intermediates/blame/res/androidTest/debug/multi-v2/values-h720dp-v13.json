@@ -16,6 +16,36 @@
             ]
         },
         {
+            "outputFile": "D:\\MyProject\\SM4forAndroid\\app\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-h720dp-v13\\values-h720dp-v13.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Nop\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.1.aar\\6cdb7da7aef8cdd6323fc357750dc027\\res\\values-h720dp-v13\\values-h720dp-v13.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "66",
+                        "endOffsets": "117"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\MyProject\\SM4forAndroid\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\values-h720dp-v13\\values-h720dp-v13.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Nop\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.1.aar\\6cdb7da7aef8cdd6323fc357750dc027\\res\\values-h720dp-v13\\values-h720dp-v13.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "66",
+                        "endOffsets": "117"
+                    }
+                }
+            ]
+        },
+        {
             "outputFile": "F:\\crypto\\Encryption\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\values-h720dp-v13\\values-h720dp-v13.xml",
             "map": [
                 {

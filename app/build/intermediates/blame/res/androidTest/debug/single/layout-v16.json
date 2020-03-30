@@ -4,6 +4,10 @@
         "source": "C:\\Users\\Nop\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.1.aar\\2b9a0451e8bd199a77e367f03cd824e9\\res\\layout-v16\\notification_template_custom_big.xml"
     },
     {
+        "merged": "D:\\MyProject\\SM4forAndroid\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout-v16\\notification_template_custom_big.xml",
+        "source": "C:\\Users\\Nop\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.1.aar\\2b9a0451e8bd199a77e367f03cd824e9\\res\\layout-v16\\notification_template_custom_big.xml"
+    },
+    {
         "merged": "D:\\AndroidStudioProjects\\jiamichuli1\\jiamichuli\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout-v16\\notification_template_custom_big.xml",
         "source": "C:\\Users\\lizhuo\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.1.aar\\d8920c53b4c865ed4e6f7faa28486a95\\res\\layout-v16\\notification_template_custom_big.xml"
     }

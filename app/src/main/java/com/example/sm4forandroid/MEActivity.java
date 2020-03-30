@@ -8,7 +8,20 @@ import android.widget.EditText;
 import com.app.R;
 
 
+import com.example.sm4forandroid.sm4.SM4Util;
 import com.youth.xframe.widget.XToast;
+
+import junit.framework.Assert;
+
+import java.security.InvalidAlgorithmParameterException;
+import java.security.InvalidKeyException;
+import java.security.NoSuchAlgorithmException;
+import java.security.NoSuchProviderException;
+import java.util.Arrays;
+
+import javax.crypto.BadPaddingException;
+import javax.crypto.IllegalBlockSizeException;
+import javax.crypto.NoSuchPaddingException;
 
 
 public class MEActivity extends AppCompatActivity {
@@ -16,9 +29,9 @@ public class MEActivity extends AppCompatActivity {
     private EditText ePwd;
     private EditText eText;
     private EditText dText;
-    private String key = "12345678";
-    private String CipherText;
-    private String PlainText = "test";
+    private String key = null;
+    private String CipherText=null;
+    private String PlainText =null;
 
 
     private Button ENcode;
@@ -78,24 +91,33 @@ public class MEActivity extends AppCompatActivity {
 //
 //
 //    private void SM4Decode() throws Exception {
-//        PlainText = new SM4(key).encrypt(CipherText);
+//        PlainText = new BCECUtil(key).encrypt(CipherText);
 //        eText.setText(PlainText);
 //        }
 //    private void SM4Encode() throws Exception {
-//        CipherText = new SM4(key).encrypt(PlainText);
+//        CipherText = new BCECUtil(key).encrypt(PlainText);
 //        dText.setText(CipherText);
 //    }
-//
-//
-//    public static void main(String[] args) throws Exception {
-//        String str="test";
-//        String key="12345678";
-//        String s=SM4.encode(str,key);
-//        System.out.println(s);
-//        System.out.println(SM4.decode(s,key));
-//        MEActivity t=new MEActivity();
-//        t.SM4Encode();
-//
-//    }
+    }
+
+    public static void main(String[] args) throws NoSuchPaddingException, InvalidAlgorithmParameterException, NoSuchAlgorithmException, IllegalBlockSizeException, BadPaddingException, NoSuchProviderException, InvalidKeyException {
+        try {
+            byte[] key = {0x10,0x10,0x10,0x10,0x10,0x10,0x10,0x10,0x10,0x10,0x10,0x10,0x10,0x10,0x10,0x10};
+            byte[] iv =  {0x11,0x11,0x11,0x11,0x11,0x11,0x11,0x11,0x11,0x11,0x11,0x11,0x11,0x11,0x11,0x11};
+            byte[] cipherText = null;
+            byte[] decryptedData = null;
+            byte[] plaintext = {0x61,0x62,0x63};
+
+            cipherText = SM4Util.encrypt_Cbc_Padding(key, iv, plaintext);
+            System.out.println("SM4 CBC Padding encrypt result:\n" + Arrays.toString(cipherText));
+            decryptedData = SM4Util.decrypt_Cbc_Padding(key, iv, cipherText);
+            System.out.println("SM4 CBC Padding decrypt result:\n" + Arrays.toString(decryptedData));
+            if (!Arrays.equals(decryptedData, plaintext)) {
+                Assert.fail();
+            }
+        } catch (Exception ex) {
+            ex.printStackTrace();
+            Assert.fail();
+        }
     }
 }

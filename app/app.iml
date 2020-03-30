@@ -104,6 +104,7 @@
     <orderEntry type="library" scope="TEST" name="Gradle: com.android.support.test:runner:1.0.1@aar" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: com.android.support.test.espresso:espresso-idling-resource:3.0.1@aar" level="project" />
     <orderEntry type="library" name="Gradle: __local_aars__:D./MyProject/SM4forAndroid/app/libs/Msc.jar:unspecified@jar" level="project" />
+    <orderEntry type="library" name="Gradle: __local_aars__:D./MyProject/SM4forAndroid/app/libs/bcprov-jdk15to18-164.jar:unspecified@jar" level="project" />
     <orderEntry type="library" name="Gradle: com.jakewharton:butterknife:7.0.1@jar" level="project" />
     <orderEntry type="library" name="Gradle: com.google.code.gson:gson:2.3.1@jar" level="project" />
     <orderEntry type="library" name="Gradle: com.github.bumptech.glide:glide:3.7.0@jar" level="project" />
