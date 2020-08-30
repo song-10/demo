@@ -1,7 +1,0 @@
-#Internal package file, do not edit.
-#Wed Oct 09 15:19:35 CST 2019
-0.baseType=DIRECTORY
-0.base=F\:\\crypto\\Encryption\\app\\build\\intermediates\\assets\\debug
-0.path=litepal.xml
-0.set=ASSET
-count=1
