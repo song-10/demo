@@ -1,0 +1,38 @@
+<resources>
+    <string name="voice_encode">音频加密</string>
+    <string name="select_voice">浏览</string>
+    <string name="exp">输入文件路径</string>
+    <string name="play">播放</string>
+    <string name="pause">暂停</string>
+    <string name="iplay">停止</string>
+    <string name="Vencode">加密保存</string>
+    <string name="Vdecode">解密保存</string>
+
+    <string name="select_picture">浏览图片</string>
+    <string name="en_picture">加密保存</string>
+    <string name="de_picture">解密保存</string>
+    <string name="picture_status">状态</string>
+    <string name="pic_url">输入文件路径</string>
+    <string name="picture_encode">图片加密</string>
+    <string name="take_pic">拍摄照片</string>
+    <string name="about_sm4">
+        SM4.0（原名SMS4.0）是中华人民共和国政府采用的一种分组密码标准，由国家密码管理局于2012年3月21日发布。\n\n
+        相关标准为“GM/T 0002-2012《SM4分组密码算法》（原SMS4分组密码算法）”。\n\n
+        在商用密码体系中，SM4主要用于数据加密，其算法公开，分组长度与密钥长度均为128bit，加密算法与密钥扩展算法都采用32轮非线性迭代结构，S盒为固定的8比特输入8比特输出。\n\n
+        SM4.0中的指令长度被提升到大于64K（即64×1024）的水平，这是SM 3.0规格（渲染指令长度允许大于512）的128倍。\n
+    </string>
+    <string name="about_aes_des">
+        高级加密标准（英语：Advanced Encryption Standard，缩写：AES），在密码学中又称Rijndael加密法，是美国联邦政府采用的一种区块加密标准。\n\n
+        这个标准用来替代原先的DES，已经被多方分析且广为全世界所使用。\n\n
+        经过五年的甄选流程，高级加密标准由美国国家标准与技术研究院（NIST）于2001年11月26日发布于FIPS PUB 197，并在2002年5月26日成为有效的标准。
+        \n\n2006年，高级加密标准已然成为对称密钥加密中最流行的算法之一。\n\n
+        DES全称为Data Encryption Standard，即数据加密标准，是一种使用密钥加密的块算法。\n\n
+        1977年被美国联邦政府的国家标准局确定为联邦资料处理标准（FIPS），并授权在非密级政府通信中使用，随后该算法在国际上广泛流传开来。\n\n
+        需要注意的是，在某些文献中，作为算法的DES称为数据加密算法（Data Encryption Algorithm,DEA），已与作为标准的DES区分开来。\n
+    </string>
+    <string name="about_team">
+        队伍名称： Slide\n\n
+        项目说明： 本团队开发的加密小助手旨在设计实现一个加密解密工具，对Android手机中的信息进行加解密，从而解决手机中关键信息的安全保护问题。\n\n
+        此加密解密工具是基于Android平台开发，用Java语言编写的，其中文本、短信采用了SM4、AES、DES算法，文件（图片、音频、视频）采用了SM4和AES进行加密和解密。
+    </string>
+</resources>
